@@ -62,16 +62,3 @@ docs:
     url: /license/
   - title: About Rita
     url: /about/
-
-  - title: New Bot
-    children:
-      - title: "Demo Link"
-        url: /about/
-      - title: "Demo Links"
-        url: /about/
-  - title: Content
-    children:
-      - title: "Demo Link"
-        url: /about/
-      - title: "Demo Links"
-        url: /about/
