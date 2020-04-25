@@ -20,28 +20,33 @@ toc: true
 # TZD = time zone designator (Z or +hh:mm or -hh:mm)
 ---
 
-## Build Status and Bot Info
+## RITA (Stable) [![invite](https://img.shields.io/badge/Discord_Support-JOIN-7289DA.svg?)](https://discordapp.com/invite/mgNR64R)
+A Translation bot built using `discord.js` and a custom `Google Translate API`.
+*(The NPM Version of Google Translate API is outdated and does not work with this distribution, as such a custom and maintained version is installed.)*
 
-![GitHub last commit](https://img.shields.io/github/last-commit/ZyC0R3/Rita.svg)
-![GitHub issues](https://img.shields.io/github/issues-raw/ZyC0R3/Rita.svg)
-![GitHub](https://img.shields.io/github/license/ZyC0R3/Rita.svg)
-[![invite](https://img.shields.io/badge/Discord_Support-JOIN-7289DA.svg?)](https://discordapp.com/invite/mgNR64R)
+### --RITA-- Master Branch
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ZyC0R3/RitaBot?label=Stable%20Version)
+[![codebeat badge](https://codebeat.co/badges/125a5ce4-4ba1-45cf-95fa-266e1353c331)](https://codebeat.co/projects/github-com-zyc0r3-ritabot-master)
+[![Build Status](https://travis-ci.com/ZyC0R3/RitaBot.svg?branch=master)](https://travis-ci.com/ZyC0R3/RitaBot)
+[![CircleCI](https://circleci.com/gh/ZyC0R3/RitaBot.svg?style=svg)](https://circleci.com/gh/ZyC0R3/RitaBot)
+![GitHub last commit](https://img.shields.io/github/last-commit/ZyC0R3/RitaBot.svg)
+![GitHub](https://img.shields.io/github/license/ZyC0R3/RitaBot.svg)
+![GitHub issues](https://img.shields.io/github/issues/ZyC0R3/RitaBot)
 
-### Latest Stable Build
-![GitHub package.json version](https://img.shields.io/github/package-json/v/ZyC0R3/Rita?label=Stable%20Version)
+### --Google Translate API-- Master Branch
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ZyC0R3/google-translate-api)
+[![Build Status](https://travis-ci.com/ZyC0R3/google-translate-api.svg?branch=master)](https://travis-ci.com/ZyC0R3/google-translate-api)
+![GitHub last commit](https://img.shields.io/github/last-commit/ZyC0R3/google-translate-api)
+![GitHub issues](https://img.shields.io/github/issues/ZyC0R3/google-translate-api)
 
-#### CI Build Status
-[![codebeat badge](https://codebeat.co/badges/da556d1a-7025-4f94-b988-a8dc19d89d32)](https://codebeat.co/projects/github-com-zyc0r3-rita-master)
-![Travis (.com)](https://img.shields.io/travis/com/ZyC0R3/Rita?label=TravisCI)
-[![CircleCI](https://circleci.com/gh/ZyC0R3/Rita/tree/master.svg?style=svg)](https://circleci.com/gh/ZyC0R3/Rita/tree/master)
+#### --RITA-- Current Test Branch
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/ZyC0R3/RitaBot/test-branch?label=Test%20Version)
+[![Build Status](https://travis-ci.com/ZyC0R3/RitaBot.svg?branch=test-branch)](https://travis-ci.com/ZyC0R3/RitaBot)
+[![CircleCI](https://circleci.com/gh/ZyC0R3/RitaBot/tree/test-branch.svg?style=svg)](https://circleci.com/gh/ZyC0R3/RitaBot/tree/test-branch)
 
-### Current Test Branch
-![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/ZyC0R3/Rita/test-branch?label=Test%20Version)
-
-#### CI Build Status
-[![codebeat badge](https://codebeat.co/badges/13d8e66a-c92e-4a01-8c06-3a823283a84b)](https://codebeat.co/projects/github-com-zyc0r3-rita-test-branch)
-![Travis (.com) branch](https://img.shields.io/travis/com/ZyC0R3/Rita/test-branch?label=TravisCI)
-[![CircleCI](https://circleci.com/gh/ZyC0R3/Rita/tree/test-branch.svg?style=svg)](https://circleci.com/gh/ZyC0R3/Rita/tree/test-branch)
+#### --Google Translate API-- Current Test Branch
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/ZyC0R3/google-translate-api/test-branch)
+[![Build Status](https://travis-ci.com/ZyC0R3/google-translate-api.svg?branch=test-branch)](https://travis-ci.com/ZyC0R3/google-translate-api)
 
 
 ### Other Information
