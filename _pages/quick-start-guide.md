@@ -84,7 +84,7 @@ This project was originally released by Aziz under the MIT license. He chose to 
 
 * Zycore / [ZyC0R3](https://github.com/ZyC0R3)
 * Artanis / [ArtanisTheOne](https://github.com/ArtanisTheOne)
-* Balthazar / [Jshep89](https://github.com/JShep89)
+* Lord Lazarus / [Jshep89](https://github.com/JShep89)
 * Z3US / [cyberlooper](https://github.com/cyberlooper)
 * Maddious / [MadIndex](https://github.com/MadIndex)
 * defqon.1 / [wdaniel1985](https://github.com/wdaniel1985)
