@@ -22,4 +22,5 @@ toc: true
 
 ## Get Support?
 
-*Rita*
+Take a look at our /troubleshooting/ pages first, or to get support with your RITA installation, Join our discord server. [![invite](https://img.shields.io/badge/Discord_Support-JOIN-7289DA.svg?)](https://discordapp.com/invite/mgNR64R)
+
