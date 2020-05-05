@@ -1,6 +1,6 @@
 ---
 title: "Local Installation Support"
-permalink: /local
+permalink: /local/
 excerpt: "Local Installation Support"
 last_modified_at: 2020-05-05T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
 redirect_from:
