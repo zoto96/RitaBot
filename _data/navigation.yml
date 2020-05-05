@@ -31,8 +31,6 @@ docs:
         url: /trans-sett/
       - title: "Misc. Commands"
         url: /trans-misc/
-      - title: "Support"
-        url: /support/
 
   - title: "Setting up a New Bot"
     url: /new-bot/
@@ -64,3 +62,6 @@ docs:
     url: /license/
   - title: About Rita
     url: /about/
+  - title: Support
+    url: /support/
+    
