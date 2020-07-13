@@ -30,7 +30,7 @@ Rita is a an automatic translation bot built using `discord.js` and `Google Tran
 
 If you don't yet have a github account, [create one](https://github.com/join)! It's free and easy.
 
-The repo to fork is located here: https://github.com/ZyC0R3/RitaBot
+The repo to fork is located here: [repo](https://github.com/ZyC0R3/RitaBot)
 
 Use the button in the upper righthand side of this page to fork the repo so that it will be associated with your github account.
 
@@ -72,7 +72,7 @@ Go to the **Overview** tab and click configure dynos. Turn off the default `web 
 
 ### Step 4 - Invite your bot to your server and configure it!
 
-Replace the CLIENTID string in the following url with your own apps client id:
+Replace the "CLIENTID" in the following url with the client ID of your bot:
 
 ```
 https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8
