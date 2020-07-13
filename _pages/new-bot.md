@@ -30,6 +30,8 @@ Rita is a an automatic translation bot built using `discord.js` and `Google Tran
 
 If you don't yet have a github account, [create one](https://github.com/join)! It's free and easy.
 
+The repo to fork is located here: https://github.com/ZyC0R3/RitaBot
+
 Use the button in the upper righthand side of this page to fork the repo so that it will be associated with your github account.
 
 ### Step 2 - Create a new Discord App
