@@ -1,4 +1,4 @@
-# main links
+i# main links
 main:
   - title: "Home"
     url: /
@@ -47,11 +47,11 @@ docs:
   - title: "How to Update"
     url: /update/
     children:
-      - title: "1. Fork"
+      - title: "1. Checklist"
         url: /update/#step-1---checklist
-      - title: "2. Create"
+      - title: "2. Fork"
         url: /update/#step-2---fork-this-repo
-      - title: "3. Build"
+      - title: "3. Deploy"
         url: /update/#step-3---deploy-update-in-heroku
         
   - title: "C-3PO to RITA Bot Migration"
