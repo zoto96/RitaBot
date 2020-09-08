@@ -53,31 +53,72 @@ docs:
         url: /update/#step-2---fork-this-repo
       - title: "3. Deploy"
         url: /update/#step-3---deploy-update-in-heroku
-        
+
   - title: "C-3PO to RITA Bot Migration"
     url: /migration/
-    
+    children:
+      - title: "1. Checklist"
+        url: /migration/#step-1---checklist
+      - title: "2. Migrate"
+        url: /migration/#step-2---migrate
+
   - title: "Heroku Database Support"
     url: /dbsupport/
-    
+    children:
+      - title: "1. Checklist"
+        url: /dbsupport/#step-1---checklist
+      - title: "2. Connect"
+        url: /dbsupport/#step-2---connect
+
   - title: "Local Installation Support"
     url: /local/
-    
+    children:
+      - title: "1. Local db"
+        url: /local/#step-1---create-a-local-db
+      - title: "2. .env File"
+        url: /local/#step-2---create-a-new-.env-file
+      - title: "3. Install nodejs"
+        url: /local/#step-2---install-nodejs
+      - title: "4. Start Bot"
+        url: /local/#step-2---run-and-start-the-bot
+      - title: "5. Configure Bot"
+        url: /local/#step-2---configure-bot
+
   - title: "Setup on a Raspberry Pi"
     url: /raspberry-pi/
-    
+    children:
+      - title: "1. Write to SD card"
+        url: /raspberry-pi/#step-1---write-to-sd-card
+      - title: "2. Enable SSH"
+        url: /raspberry-pi/#step-2---enable-ssh
+      - title: "3. Start and Login"
+        url: /raspberry-pi/#step-2---start-and-login
+      - title: "4. Initial Setup"
+        url: /raspberry-pi/#step-2---initial-setup
+      - title: "5. Install node and npm"
+        url: /raspberry-pi/#step-2---install-node-and-npm
+      - title: "6. Get the code"
+        url: /raspberry-pi/#step-1---get-the-code
+      - title: "7. Install the db"
+        url: /raspberry-pi/#step-2---install-the-db
+      - title: "8. Copy your .env"
+        url: /raspberry-pi/#step-2---copy-your-.env
+      - title: "9. Run the code"
+        url: /raspberry-pi/#step-2---run-the-code
+      - title: "10. Autostart"
+        url: /raspberry-pi/#step-2---autostart
+
   - title: "Troubleshooting"
     url: /troubleshooting/
-    
+
   - title: "Error Messages"
     url: /errors/
-    
+
   - title: "License"
     url: /license/
-    
+
   - title: About Rita
     url: /about/
-    
+
   - title: Support
     url: /support/
-    

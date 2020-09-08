@@ -23,19 +23,19 @@ toc: true
 ## Local Installation Support
 The bot can also be run locally without Heroku. The local setup requires more steps since the database needs to be setup and the development tools need be installed. Start with the steps 1 and 2 in [Setting up a New Bot](#new-bot) and the continue as follows:
 
-#### 1. Create a local database
+### 1. Create a local db
 Any Database that runs with SQL Sequelize ('https://sequelize.org/master/') can be used. My recommendation is to use the [SQL Lite](https://www.sqlite.org/index.html) database since the setup is fast and access is easy. Copy the connection details to the database for the next step. Example: The connection to a sqlite database with the name *database.db* stored at the same level of this README file would be *./database.db*.
 
-#### 2. Create a new .env File
+### 2. Create a new .env File
 Copy the existing **.env.example** file and name it **.env**. Edit the Values of **DISCORD_TOKEN**, **DISCORD_BOT_OWNER_ID** and the **DATABASE_URL** according to the values that you copied earlier.
 
-#### 3. Install nodejs
+### 3. Install nodejs
 Install nodejs from https://nodejs.org/en/  
 
-#### 4. Run and start the bot
+### 4. Run and start the bot
 Run `npm install -g gulp` in your console to install gulp. Build the bot code using `npm build` and run the bot with `npm start`.
 
-#### 5. Invite your bot to your server and configure it!
+### 5. Configure Bot
 * Replace the CLIENTID string in the following URL with your own apps client id: https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8
 * Visit the resulting URL and add your bot to any server where you have admin privileges.
 * Once added, your bot should show up more or less instantaneously. Type `!t help` within the discord chat for more details on how to use it. Happy translating!
