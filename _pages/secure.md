@@ -49,6 +49,7 @@ A Translation bot built using `discord.js` and a custom `Google Translate API`.
 [![Build Status](https://travis-ci.com/ZyC0R3/google-translate-api.svg?branch=test-branch)](https://travis-ci.com/ZyC0R3/google-translate-api)
 
 
+
 ### Other Information
 
 What some users do not know is that along with the development and maintenance of Rita, there are 3 other Repo's that we maintain Vital to the inner working of the bot.
