@@ -27,34 +27,34 @@ The following description allows a headless configuration. Only a network connec
 
 Recommendation: run it locally first before putting the code on pi. Easier to ensure that .env variables are setup correctly.
 
-### 1. Write to SD card
+### Step 1 - Write to SD card
 Download the minimal image of Raspbian (https://www.raspberrypi.org/downloads/raspbian/). This setup is based on Raspbian Buster Lite, July 2019.
 
 Use balenaEtcher(https://www.balena.io/etcher/) to write the image on your SD card.
 
 For more Information: See https://www.raspberrypi.org/documentation/installation/installing-images/README.md
 
-### 2. Enable SSH
+### Step 2 - Enable SSH
 Enable SSH by placing a file named “ssh” (without any extension) onto the boot partition of the SD card.
 
-### 3. Start and Login
+### Step 3 - Start and Login
 * Pop your prepared SD card, power and a network cable into the Pi.
 * Find your Pi's IP Address. Check your Router's DHCP allocation table or use a mobile app like Fing (https://play.google.com/store/apps/details?id=com.overlook.android.fing) to find the IP of Pi.
 * Install WinSCP and Putty on your Laptop.
 * Start Putty and login into your Pi. Username: pi, PW: raspberry. Change your password with 'passwd'.
 
-### 4. Initial Setup
+### Step 4 - Initial Setup
 * Type `raspi-config` and change your locales
 * Update the package lists from repositories: `sudo apt-get update`
 * Update your repositories: `sudo apt-get dist-upgrade`
 
-### 5. Install node and npm
+### Step 5 - Install node and npm
 The fastes way to install the current node and npm versions (https://nodejs.org/en/download/) was to follow the description from nodesource (https://github.com/nodesource/distributions/blob/master/README.md):
 * Get the source: `curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
 * Install: `sudo apt-get install -y nodejs`
 * Check version: `node -v` and `npm -v`
 
-### 6. Get the code
+### Step 6 - Get the code
 It is recommend to install git and pull from your fork or main:
 * Install git: `sudo apt-get install git`
 * Create the folder for the source: `mkdir Rita`
@@ -63,22 +63,22 @@ It is recommend to install git and pull from your fork or main:
 
 Alternative: move the source code with WinSCP from your local environment to the Pi.
 
-### 7. Install the db
+### Step 7 - Install the db
 Install sqlite3 with `sudo apt-get install sqlite3`.
 
 Create an empty database file (`sqlite3 database.db`)and call `.tables`)
 
-### 8. Copy your .env
+### Step 8 - Copy your .env
 Use WinSCP to copy your .env file from your local environment to the Pi.
 
-### 9. Run the code
+### Step 9 - Run the code
 * Install gulp is installed: `sudo npm install -g gulp` (not sure if still necessary)
 * Make sure you are in the Rita folder
 * Get and install all packages of RITA: `npm install`
 * Build the code: `npm run-script build`
 * Start the bot: `npm run-script start`
 
-### 10. Autostart
+### Step 10 - Autostart
 There are different ways to make the bot initialize at startup. The following description is based on `init.d` and `update-rc.d`:
 * Create a `init.d` script: Edit the script template in `.pi/translate_bot` if necessary and copy it to the folder `/etc/init.d/` with `sudo mv .pi/translate_bot /etc/init.d/.`
 * Make the file executable: `sudo chmod +x /etc/init.d/translate_bot`
