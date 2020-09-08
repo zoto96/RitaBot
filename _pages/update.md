@@ -2,7 +2,7 @@
 title: "How to Update to 1.1.7 and Above"
 permalink: /update/
 excerpt: "How to Update."
-last_modified_at: 2020-05-05T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
+last_modified_at: 2020-09-08T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
 redirect_from:
   - /theme-setup/
 toc: true
@@ -21,14 +21,14 @@ toc: true
 ---
 
 ## How to Update to 1.1.7 and Above
-#### 1. Checklist
+### Step 1 - Checklist
 * You must have a bot already running on your server, if not then refer to [Setting up a New Bot](#new-bot)
 
-#### 2. Fork this Repo
+### Step 2 - Fork this Repo
 * Complete a Pull Request from the master Branch of ZyC0R3/Rita to your master branch.
 * Detailed instructions with example can be found here: https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/
 
-#### 3. Deploy Update in Heroku
+### Step 3 - Deploy Update in Heroku
 * Log in to your Heroku account.
 * Select the bot you made in step 3 of [Setting up a New Bot](#new-bot)
 * Under **Deployment Method** Scroll down to the manual deploy section, and select the **Master** branch. Click deploy branch, and wait for the successfully deployed message.
