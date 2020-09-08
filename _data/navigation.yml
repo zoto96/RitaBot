@@ -46,22 +46,38 @@ docs:
 
   - title: "How to Update"
     url: /update/
+    children:
+      - title: "1. Fork"
+        url: /update/#step-1---checklist
+      - title: "2. Create"
+        url: /update/#step-2---fork-this-repo
+      - title: "3. Build"
+        url: /update/#step-3---deploy-update-in-heroku
+        
   - title: "C-3PO to RITA Bot Migration"
     url: /migration/
+    
   - title: "Heroku Database Support"
     url: /dbsupport/
+    
   - title: "Local Installation Support"
     url: /local/
+    
   - title: "Setup on a Raspberry Pi"
     url: /raspberry-pi/
+    
   - title: "Troubleshooting"
     url: /troubleshooting/
+    
   - title: "Error Messages"
     url: /errors/
+    
   - title: "License"
     url: /license/
+    
   - title: About Rita
     url: /about/
+    
   - title: Support
     url: /support/
     
