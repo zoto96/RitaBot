@@ -13,6 +13,7 @@ const cmdStats = require("./stats");
 const cmdVersion = require("./version");
 const cmdEmbed = require("./embed");
 const cmdMisc = require("./misc");
+const cmdBot2bot = require("./bot2bot");
 const cmdSettings = require("./settings");
 const cmdTranslateLast = require("./translate.last");
 const cmdTranslateThis = require("./translate.this");
@@ -222,12 +223,13 @@ module.exports = function(data)
          "list": cmdList,
          "stats": cmdStats,
          "embed": cmdEmbed.run,
+         "bot2bot": cmdBot2bot.run,
          "version": cmdVersion,
          "invite": cmdMisc.invite,
          "shards": cmdMisc.shards,
          "proc": cmdMisc.proc,
          "cpu": cmdMisc.cpuUsage,
-         "settings": cmdSettings.run
+         "settings": cmdSettings
       };
 
       //

@@ -12,11 +12,8 @@ var b2bVar = "off";
 //   b2bVar
 //}
 
-module.exports.getB2bVar = function(data)
-{
-   return b2bVar;
-};
-module.exports.run = function(data)
+
+module.exports = function(data)
 {
    //
    // Command allowed by admins only
