@@ -54,8 +54,8 @@ A Translation bot built using `discord.js` and a custom `Google Translate API`.
 
 ## New in 1.2.1-\*
 * New commands added (embed and bot2bot)
-  * embed command allows you to change the type of message that is sent to the translation channel, in embed format or standard text. standard text shows the users avatar and name instead of the bot.
-  * bot2bot allow for messages sent from other bots, in non embedded format to be translated as well.
+  * embed command allows you to change the type of message that is sent to the translation channel, in embed format or standard text. Standard text shows the users avatar and name instead of the bot.
+  * bot2bot allows for messages sent from other bots, in non embedded format to be translated as well.
 * Major code changes, however no code implementations will change the DB so this is a safe version to update too.
 * Various Security vulnerabilities fixed.
 * Dev Dependencies core to this bot, the `google-transalte-api` & `google-transalte-token` & `gulp-watch`have been updated
