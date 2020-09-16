@@ -325,14 +325,15 @@ module.exports = function(data)
             }
             else
             {
-               webhook.send("", {
-                  "username": username,
-                  "avatarURL": avatarURL,
-                  "files": files,
-                  "embeds": [{
-                     "description": data.text,
-                     "color": colors.get(data.color)
-                  }]
+               data.channel.send({
+                  embed: {
+                     title: data.title,
+                     fields: data.fields,
+                     author: data.author,
+                     color: colors.get(data.color),
+                     description: data.text,
+                     footer: data.footer
+                  }
                });
             }
          }
