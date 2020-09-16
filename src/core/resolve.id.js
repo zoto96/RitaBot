@@ -65,7 +65,7 @@ exports.main = function(client, id, output = null, guild)
    {
       "@": function()
       {
-         resolved.obj = client.users.get(resolved.pure);
+         resolved.obj = client.users.cache.get(resolved.pure);
          resolved.name = resolved.obj.username;
       },
       "@&": function()

@@ -127,7 +127,7 @@ exports.getRoleColor = function(member)
 
 exports.getUser = function(client, userID, cb)
 {
-   const user = client.users.get(userID);
+   const user = client.users.cache.get(userID);
 
    if (user)
    {
@@ -136,7 +136,7 @@ exports.getUser = function(client, userID, cb)
 
    // user not in cache, fetch 'em
 
-   client.fetchUser(userID).then(cb).catch(err =>
+   client.users.fetch(userID).then(cb).catch(err =>
    {
       cb(false);
       return logger("error", err);
@@ -179,7 +179,7 @@ exports.getMessage = function(client, messageID, channelID, userID, cb)
 {
    module.exports.getChannel(client, channelID, userID, channel =>
    {
-      const message = channel.messages.get(messageID);
+      const message = channel.messages.cache.get(messageID);
 
       if (message)
       {

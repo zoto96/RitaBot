@@ -1,4 +1,4 @@
-const botSend = require("../core/send");
+//const botSend = require("../core/send");
 const auth = require("../core/auth");
 var embedVar = "on";
 
@@ -17,7 +17,7 @@ module.exports.run = function(data)
    {
       data.color = "warn";
       data.text = ":cop:  This command is reserved for server administrators.";
-      return botSend;
+      return data.message.channel.send(data);
    }
 
    //
@@ -31,7 +31,7 @@ module.exports.run = function(data)
          ":warning:  Missing `settings` parameter. Use `" +
          `${data.config.translateCmdShort} help settings\` to learn more.`;
 
-      return botSend;
+         return data.message.channel.send(data);
    }
 
    //
@@ -63,12 +63,12 @@ const embedSettings = function(data)
       console.log("----------------- Data -----------------");
       console.log(data);
       console.log("----------------- Data -----------------");
-      return botSend;
+      return data.message.channel.send(data);
    }
 
    data.color = "error";
    data.text =
       ":warning:  **`" + commandVariable1 +
       "`** is not a valid b2b option.";
-   return botSend;
+      return data.message.channel.send(data);
 };

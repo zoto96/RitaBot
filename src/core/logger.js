@@ -43,7 +43,7 @@ const devConsole = function(data)
 
 const hookSend = function(data)
 {
-   const embed = new discord.RichEmbed({
+   const embed = new discord.MessageEmbed({
       title: data.title,
       color: colors(data.color),
       description: data.msg,
@@ -67,7 +67,7 @@ const errorLog = function(error, subtype)
 
    const errorTypes = {
       dm: ":skull_crossbones:  Discord - user.createDM",
-      fetch: ":no_pedestrians:  Discord - client.fetchUser",
+      fetch: ":no_pedestrians:  Discord - client.users.fetch",
       send: ":postbox:  Discord - send",
       edit: ":crayon:  Discord - message.edit",
       react: ":anger:  Discord - message.react",
