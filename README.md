@@ -42,20 +42,31 @@ A Translation bot built using `discord.js` and a custom `Google Translate API`.
 02. Auto Reverse translation for the auto function.
 03. `!t tasks #TargetChannel` Implementation.
 04. Introduction of a Streamlined Command Handler. (This will be done as a New Project)
+05. Discord.js Updated to version 12 (V1.2.2/1.3.0)
+06. Ability to change message send type (V1.2.1)
+07. Limited Bot translation. (V1.2.1)
 
+## New in 1.2.2-\* 
+* EXPERIMENTAL version of RITA - Not safe for normal use. (will be renamed to 1.3.0 once issues are resolved.)
+* Discord.js update from V11 to V12
+* All feature in previous versions are included however core functions are faulty and may cause DB issues. 
+  * Updating to this version may corrupt your DB, Do not do this unless you have backed it up. 
+
+## New in 1.2.1-\*
+* New commands added (embed and bot2bot)
+  * embed command allows you to change the type of message that is sent to the translation channel, in embed format or standard text. standard text shows the users avatar and name instead of the bot.
+  * bot2bot allow for messages sent from other bots, in non embedded format to be translated as well.
+* Major code changes, however no code implementations will change the DB so this is a safe version to update too.
+* Various Security vulnerabilities fixed.
+* Dev Dependencies core to this bot, the `google-transalte-api` & `google-transalte-token` & `gulp-watch`have been updated
 
 ## New in 1.2.0-\*
 * No Code changes, just URL updates for New name of Bot
 * Published to NPM
 * Non code changes will be appended with Version-\*\* from now on
-
-## New in 1.1.8
-* Various Security vulnerabilities fixed.
 * Various Spelling mistakes in ReadMe have been corrected.
 * Dev Dependencies core to this bot, the `google-transalte-api` & `google-transalte-token` have been updated
-
-## New in 1.1.7
-* Setup on a Raspberry Pi Section.
+* Setup on a Raspberry Pi instruction Section added.
 * gulp-watch updated dependencies. (*Moved to Local Repo as it was out-of-date and full of Security Issues.*)
 * Patch for Chinese language support.
 * Various Security vulnerabilities fixed.
