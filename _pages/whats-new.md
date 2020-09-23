@@ -22,14 +22,12 @@ toc: true
 
 **Important Note**
 
-*The bot's default prefix is !t (or !translate) - All commands must start with this prefix for the bot to process them.
+*The bot's default prefix is !t (or !translate) - however this can be changed by the user.
 Bot must have proper permissions in all relevant channels for full functionality (**read**, **write**, **react**, **mention**, **attachments**, **embed**).*
-
-*Users who wish to receive automatic translations in private must **enable DMs** via **server privacy settings**.*
 
 ----
 
-## New in 1.2.1-\*
+## New in 1.2.1
 
 ### Command Changes
 * `embed`, `bot2bot`, `settings updatedb` commands have been added
