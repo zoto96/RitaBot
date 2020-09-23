@@ -1,5 +1,5 @@
 ---
-title: "New in Verison 1.2.1"
+title: "Whats new with Rita"
 permalink: /whats-new/
 excerpt: "Support pages for Rita"
 last_modified_at: 2019-09-10T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
@@ -26,7 +26,6 @@ toc: true
 Bot must have proper permissions in all relevant channels for full functionality (**read**, **write**, **react**, **mention**, **attachments**, **embed**).*
 
 ----
-
 ## New in 1.2.1
 
 ### Command Changes
