@@ -30,8 +30,8 @@ Bot must have proper permissions in all relevant channels for full functionality
 
 ### Command Changes
 * `embed`, `bot2bot`, `settings updatedb` commands have been added
-  * `embed`: this command allows you to change the type of message that is sent to the translation channel, in embed format or standard text. Standard text shows the users avatar and name instead of the bot.
-  * `bot2bot`: this allows for messages sent from other bots, in non embedded format to be translated as well. (Due to limitation this has been implimented but is **disabled** for now)
+  * `embed`: This command allows you to change the type of message that is sent to the translation channel, in embed format or standard text. Standard text shows the users avatar and name instead of the bot.
+  * `bot2bot`: This allows for messages sent from other bots, in non embedded format to be translated as well. (Due to limitation this has been implimented but is **disabled** for now)
   * `updatedb`:As the new variables above are stored in the DB, they need new Columns to be added, as such `updatedb` will complete these actions.
   * `!t settings updatebot` Has been **Modified** - This is not needed as of yet and with the similarities to the `!t settings updatedb` command it may cause issues.
   
