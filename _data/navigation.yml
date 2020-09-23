@@ -15,6 +15,8 @@ main:
 docs:
   - title: "Build Status & Info"
     url: /secure/
+  - title: "Whats New 1.2.1"
+    url: /whats-new/
   - title: "Usage, Commands & Settings"
     children:
       - title: "Usage"
