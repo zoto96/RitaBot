@@ -30,22 +30,22 @@ Bot must have proper permissions in all relevant channels for full functionality
 
 ### Command Changes
 * `embed`, `bot2bot`, `settings updatedb` commands have been added
-  * `embed`: This command allows you to change the type of message that is sent to the translation channel, in embed format or standard text. Standard text shows the users avatar and name instead of the bot.
-  * `bot2bot`: This allows for messages sent from other bots, in non embedded format to be translated as well. (Due to limitation this has been implimented but is **disabled** for now)
-  * `updatedb`:As the new variables above are stored in the DB, they need new Columns to be added, as such `updatedb` will complete these actions.
-  * `!t settings updatebot` Has been **Modified** - This is not needed as of yet and with the similarities to the `!t settings updatedb` command it may cause issues.
+  * `embed`: This command allows you to change the type of message that is sent to the translation channel, in embedded format or standard text. Standard text shows the users avatar and name instead of the bot.
+  * `bot2bot`: This allows for messages sent from other bots, in non embedded format to be translated as well. (Due to limitations this has been implimented but is **disabled** for now)
+  * `updatedb`: As the new variables above are stored in the DB, they need new Columns to be added to function, as such `updatedb` will complete these actions.
+  * `!t settings updatebot` Has been **Modified** - This is not needed as of yet and with the similarities to the `!t settings updatedb` command, it may cause accidental issues.
   
 ### Code changes
-* Major code changes, new code implementations will change the DB and produce errors on first build, but this is a safe version to update to. Follow the below instructions.
+* Major code changes, new code implementations will change the DB and produce errors on first build, but this is a safe version to update to. Follow the below instructions to fix the DB.
   * Step 1: Make a pull request and update from **Master** branch. 
-    * Once you update the bot and it initializes you WILL get a db error, this is normal. (we are working on suppressing these)
+    * Once you update the bot and it initializes you WILL get a DB error, this is normal. (we are working on suppressing these)
   * Step 2: `!t settings updatedb`
     * This will throw another error but it will build the missing columns.
-    * The default value for embed is on and botbot is off.
-    * Running this multiple times will cause error to be posted to webhook chan, this is a "Value exists" error. Preventing you from destroying the DB
+    * The default value for `embed` is **on** and `bot2bot` is **off**.
+    * Running this multiple times will cause errors to be posted to webhook channel, this will be a "Value exists" error. This is intended to prevent you from destroying the DB
   * Step 3: Completed, and now working.
     * Once you have completed Step 2, the bot will have come online, but it wont have fully Initialised. 
-    * To prevent a never ending loop of errors, the VERY FIRST message or command sent on the server will Initialise the DB fully. Meaning you will have to send that message again.
+    * To prevent a never ending loop of errors, the VERY FIRST message or command sent on the first load will Initialise the DB fully. Meaning you will have to send that message again.
       * Please Note Due to [Automatic dyno restarts](https://devcenter.heroku.com/articles/dynos#automatic-dyno-restarts) the first message after each restart will share the same behaviour as above.
 
 ### Misc
