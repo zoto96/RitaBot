@@ -18,7 +18,7 @@ feature_row:
     url: "/wiki/"
     btn_class: "btn--primary"
     btn_label: "Get Started"
-  - image_path: /assets/images/1.jpg
+  - image_path: /assets/images/1.gif
     alt: "Totally Secure"
     title: "Totally Secure"
     excerpt: "Built in Javascript, run on Node.js, hosted on Heroku and a command system thats Administrator only."
