@@ -8,13 +8,6 @@ const date = `${dateObj.getFullYear()}-${padStart(
   dateObj.getMonth() + 1
 )}-${padStart(dateObj.getDate())}`;
 
-function favicon() {
-    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
-    link.type = 'image/x-icon';
-    link.rel = 'shortcut icon';
-    link.href = 'https://drive.google.com/file/d/1iaHZswy946VXLIEVsWZTKNdrksZfKY5K/view?usp=sharing';
-    document.getElementsByTagName('head')[0].appendChild(link);
-}();
 
 const banner = var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';
