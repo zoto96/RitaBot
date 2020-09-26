@@ -18,7 +18,7 @@ feature_row:
     url: "/wiki/"
     btn_class: "btn--primary"
     btn_label: "Get Started"
-  - image_path: "https://media.discordapp.net/attachments/599327653752995861/759181943518265344/Rita.gif?width=1000&height=1300"
+  - image_path: "https://media.discordapp.net/attachments/599327653752995861/759181943518265344/Rita.gif?width=1100&height=1340"
     alt: "Totally Secure"
     title: "Totally Secure"
     excerpt: "Built in Javascript, run on Node.js, hosted on Heroku and a command system thats Administrator only."
