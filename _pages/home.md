@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/home_banner.gif
+  overlay_image: /assets/images/home_banner.jpg
   actions:
     - label: "Quick Start Guide"
       url: "/quick-start-guide/"
