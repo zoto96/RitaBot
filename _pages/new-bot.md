@@ -30,9 +30,7 @@ Rita is a an automatic translation bot built using `discord.js` and `Google Tran
 
 If you don't yet have a github account, [create one](https://github.com/join)! It's free and easy.
 
-The repo to fork is located here: [repo](https://github.com/ZyC0R3/RitaBot)
-
-Use the button in the upper righthand side of this page to fork the repo so that it will be associated with your github account.
+Click [here](https://github.com/ZyC0R3/RitaBot/fork) or use the button in the upper righthand side of this page to fork the repository so that it will be associated with your Github account.
 
 ### Step 2 - Create a new Discord App
 
@@ -66,7 +64,12 @@ Scroll down to the manual deploy section, and select the **master** branch. Clic
 
 Go to the **Resources** tab and look for the addons section. Search 'Postgres', and add a 'Hobby Dev - Free' version of Heroku Postgres. This will be automatically attached as your bot's database.
 
-Go to the **Settings** tab. Click to reveal Config Variables, then add a new one. The key will be **DISCORD_TOKEN**, and the value will be your discord bot's token that you copied earlier.
+Go to the **Settings** tab. Click to reveal Config Variables, then add then add the following:
+  * **KEY:** =  DISCORD_TOKEN
+  * **Value:** = Your discord bot's token that you copied earlier.
+  * **KEY:** =  NODE_MODULES_CACHE
+  * **Value:** = false
+    * *This is to ensure that when the bot updates it does not use any old Dependencies that Heroku has stored and gets fresh ones from the package.json file*
 
 Go to the **Overview** tab and click configure dynos. Turn off the default `web npm start` dyno and turn on the `worker node src/bot.js` dyno. Your bot will now be up and running!
 
