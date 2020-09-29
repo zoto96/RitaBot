@@ -38,11 +38,11 @@ docs:
     url: /deploy/
     children:
       - title: "1. Create"
-        url: /new-bot/#step-1---create-a-new-discord-app
+        url: /deploy/#step-1---create-a-new-discord-app
       - title: "2. Build"
-        url: /new-bot/#step-2---create-a-heroku-account
+        url: /deploy/#step-2---create-a-heroku-account
       - title: "3. Invite"
-        url: /new-bot/#step-3---invite-your-bot-to-your-server-and-configure-it
+        url: /deploy/#step-3---invite-your-bot-to-your-server-and-configure-it
         
   - title: "Setting up a New Bot"
     url: /new-bot/
