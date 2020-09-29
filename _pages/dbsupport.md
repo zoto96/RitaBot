@@ -44,5 +44,5 @@ For a fresh install of pgAdmin, the dashboard likely contains only one server. T
 
 At this point, if we were to hit ‘save’ (please don’t), something very strange would happen. You’d see hundreds if not thousands of databases appear in pgAdmin. This has to do with how Heroku configures their servers. You’ll still only have access to your specific database, not those of others. In order to avoid parsing so many databases, we have to white list only those databases we care about.
 
-3. Go to the **Advanced** tab and under db restriction copy the database name (it’s the same value as the **Maintenance Database** field filled earlier).
-4. Click Save/Connect and you are done. Edit away.
+ 3. Go to the **Advanced** tab and under db restriction copy the database name (it’s the same value as the **Maintenance Database** field filled earlier).
+ 4. Click Save/Connect and you are done. Edit away.
