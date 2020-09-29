@@ -32,6 +32,7 @@ Sometimes you need to edit the Database manually, This is not something you shou
 
 ### 2. Connect
 For a fresh install of pgAdmin, the dashboard likely contains only one server. This is your local server, Ignore this.
+
 1 - Right click server(s) > create > server …
 
 2 - Fill out the following:
