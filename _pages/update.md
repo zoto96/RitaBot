@@ -22,7 +22,7 @@ toc: true
 
 ## How to Update to 1.1.7 and Above
 ### Step 1 - Checklist
-* You must have a bot already running on your server, if not then refer to [Setting up a New Bot](#new-bot)
+* You must have a bot already running on your server, if not then refer to [Setting up a New Bot Manually](/new-bot/)
 
 ### Step 2 - Fork this Repository 
 * Complete a Pull Request from the master Branch of ZyC0R3/Rita to your master branch
