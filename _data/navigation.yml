@@ -34,11 +34,21 @@ docs:
       - title: "Misc. Commands"
         url: /trans-misc/
 
+  - title: "Deploy to Heroku"
+    url: /new-bot/
+    children:
+      - title: "1. Create"
+        url: /new-bot/#step-1---create-a-new-discord-app
+      - title: "2. Build"
+        url: /new-bot/#step-2---create-a-heroku-account
+      - title: "3. Invite"
+        url: /new-bot/#step-3---invite-your-bot-to-your-server-and-configure-it
+        
   - title: "Setting up a New Bot"
     url: /new-bot/
     children:
       - title: "1. Fork"
-        url: /new-bot/#step-1---fork-this-repo
+        url: /new-bot/#step-1---fork-this-repository
       - title: "2. Create"
         url: /new-bot/#step-2---create-a-new-discord-app
       - title: "3. Build"
