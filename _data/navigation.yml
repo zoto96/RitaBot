@@ -40,7 +40,7 @@ docs:
       - title: "1. Create"
         url: /deploy/#step-1---create-a-new-discord-app
       - title: "2. Build"
-        url: /deploy/#step-2---create-a-heroku-account
+        url: /deploy/#step-2---deploy-to-heroku
       - title: "3. Invite"
         url: /deploy/#step-3---invite-your-bot-to-your-server-and-configure-it
         
