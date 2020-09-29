@@ -2,7 +2,7 @@
 title: "How to install and setup Rita for the First Time."
 permalink: /new-bot/
 excerpt: "How to install and setup Rita for the First Time."
-last_modified_at: 2019-09-10T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
+last_modified_at: 2020-09-29T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
 redirect_from:
   - /theme-setup/
 toc: true
