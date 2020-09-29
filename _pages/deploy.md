@@ -1,7 +1,7 @@
 ---
-title: "Setting up a Bot with "Deploy to Heroku."
-permalink: /deploy/
-excerpt: "Setting up a Bot with "Deploy to Heroku."
+title: "How to install and setup Rita for the First Time."
+permalink: /new-bot/
+excerpt: "How to install and setup Rita for the First Time."
 last_modified_at: 2020-09-29T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
 redirect_from:
   - /theme-setup/
@@ -19,7 +19,6 @@ toc: true
 # ss = two digits of second (00 through 59)
 # TZD = time zone designator (Z or +hh:mm or -hh:mm)
 ---
-
 Rita is a an automatic translation bot built using `discord.js` and `Google Translate API`.
 
 This Method does not need you to Fork this repository, you can run your not straight off of the Rita Master Branch. For update instructions click [here](#update)
