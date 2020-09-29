@@ -26,11 +26,11 @@ Rita is a an automatic translation bot built using `discord.js` and `Google Tran
 
 **To deploy a free translation bot that you can add to your discord server, follow these easy steps.**
 
-### Step 1 - Fork this repo.
+### Step 1 - Fork this repository.
 * If you don't yet have a Github account, [create one](https://github.com/join)! It's free and easy.
 * Click [here](https://github.com/ZyC0R3/RitaBot/fork) or use the button in the upper righthand side of this page to fork the repository so that it will be associated with your Github account.
 
-### Step 2 - Create a new Discord App
+### Step 2 - Create a new [Discord App](https://discordapp.com/developers/applications/me/create)
 * Give app a friendly name and click the **Create App** button
   * I like the name **C-3PO**, but feel free to pick something different if you fear George Lucas's wrath. Maybe **C-4PO**
 * Take note of the app **CLIENT ID**, you will need it later
