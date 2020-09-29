@@ -24,7 +24,7 @@ toc: true
 ### Step 1 - Checklist
 * You must have a bot already running on your server, if not then refer to [Setting up a New Bot](#new-bot)
 
-### Step 2 - Fork this Repo
+### Step 2 - Fork this Repository 
 * Complete a Pull Request from the master Branch of ZyC0R3/Rita to your master branch
   * Detailed instructions with example can be found here: https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/
 
