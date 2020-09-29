@@ -22,7 +22,7 @@ toc: true
 
 Rita is a an automatic translation bot built using `discord.js` and `Google Translate API`.
 
-## Setting up a New Bot (RECOMMENDED)
+## Setting up a Bot Manually
 
 **To deploy a free translation bot that you can add to your discord server, follow these easy steps.**
 
