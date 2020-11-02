@@ -39,6 +39,6 @@ You acknowledge that you have read this Policy and agree to all its terms and co
 
 ## Contacting us
 
-If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to our use of cookies, you may do so via our [Discord Server](https://)
+If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to our use of cookies, you may do so via our [Discord Server](https://discord.gg/mgNR64R)
 
 * ***This document was last updated on November 2nd, 2020.***
