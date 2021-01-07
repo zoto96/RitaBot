@@ -87,3 +87,26 @@ There are different ways to make the bot initialize at startup. The following de
 * The logging will be in `/var/log/translate_bot.err` and `/var/log/translate_bot.log`
 * Reboot and hope everything is running smooth: `sudo reboot`
 * Enjoy (or return to step 4 in [Setting up a New Bot](#new-bot) if you haven't done yet)
+
+### Step 11 - Updating the Bot
+Update method via command line, minimal GUI interface needed
+* Step 1: Naviagte to the directory where you ran `git clone` for your fork of the RitaBot repository.
+  * `cd RitaBot`
+  * `git status` should return the following `On branch master Your branch is up to date with 'origin/master'. nothing to commit, working tree clean` if so preoceed to Step 2
+  * if how ever you get the following messages you will need to resolve them before proceeding further.
+    * `Changes not staged for commit:` you have the following options
+      * Do this if you have changes you deam nesiciary to add only
+        * (use "`git add <modified file>`" to update what will be committed) followed by `git commit -m <commit message>` and lastly `git push master`
+        * If you are adding you own commits I'm assuming you know how to deal with potential merge conflicts and can appropriatly resolve them accordingly before rebase step.
+      * The other and HIGHLY prefered method is to simply checkout the modifed files to avoid merge conflicts  (use "`git checkout -- . ` to discard changes all changes working directory)
+        * Once you think you've gotten the branch back to `working tree clean` state by running `git status` one more time. You are ready to move on to Step 2
+* Step 2: Now just run the following commands in order
+  * `git remote add upstream https://github.com/ZyC0R3/RitaBot.git`
+  * `git fetch upstream`
+  * `git checkout master`
+  * `git rebase upstream/master`
+  * `git push -f origin master` (Note you will only have to use the `-f` flag for the first psuh)
+    * enter your username and password from your Github account that's linked to the bot to complete the `git push`
+  * Restart your stopped Web Dyno on the Heroku website.
+  * Go to `Depploy` page on your Heroku app overview, scroll to the bottom and click `Deploy Branch` at the bottom in the Manual Deploy section.
+* Congrats update to new bot is complete. You can verify the update by checking the version of the bot after it finishes rebooting with the trusty `!t stats` command
