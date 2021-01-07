@@ -124,7 +124,7 @@ docs:
       - title: "10. Autostart"
         url: /raspberry-pi/#step-10---autostart
       - title: "11. Update"
-        url: /raspberry-pi/#step-11---Updating-the-Bot
+        url: /raspberry-pi/#step-11---updating-the-bot
 
   - title: "Troubleshooting"
     url: /troubleshooting/
