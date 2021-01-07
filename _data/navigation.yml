@@ -68,7 +68,7 @@ docs:
       - title: "4. Updating Database"
         url: /update/#step-4---Updating-Database
 
-        Updating Database
+        # Updating Database
 
   - title: "C-3PO to RITA Bot Migration"
     url: /migration/
