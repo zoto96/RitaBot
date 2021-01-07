@@ -65,6 +65,10 @@ docs:
         url: /update/#step-2---fork-this-repository
       - title: "3. Deploy"
         url: /update/#step-3---deploy-update-in-heroku
+      - title: "4. Updating Database"
+        url: /update/#step-4---Updating-Database
+
+        Updating Database
 
   - title: "C-3PO to RITA Bot Migration"
     url: /migration/
@@ -119,6 +123,8 @@ docs:
         url: /raspberry-pi/#step-9---run-the-code
       - title: "10. Autostart"
         url: /raspberry-pi/#step-10---autostart
+      - title: "11. Update"
+        url: /raspberry-pi/#step-11---Updating-the-Bot
 
   - title: "Troubleshooting"
     url: /troubleshooting/
