@@ -21,12 +21,12 @@ module.exports = function(config, message, edited, deleted)
    {
       if (message.author.bot)
       {
-      return;
+         return;
       }
       else
       if (message.webhookID)
       {
-         return
+         return;
       }
    }
 

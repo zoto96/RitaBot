@@ -197,8 +197,7 @@ const getSettings = function(data)
    // --------------------------------------
    // Bot to Bot Messages
    // --------------------------------------
-
-    const b2b = function(data)
+   const b2b = function(data)
    {
       const commandVariable1 = data.cmd.params.split(" ")[1].toLowerCase();
 
