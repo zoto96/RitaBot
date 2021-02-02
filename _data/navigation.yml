@@ -8,6 +8,8 @@ main:
     url: /about/
   - title: "Wiki"
     url: /wiki/
+  - title: "Common Issues"
+    url: /common-issues/
   - title: "Support"
     url: /support/
 
@@ -127,10 +129,11 @@ docs:
         url: /raspberry-pi/#step-11---updating-the-bot
 
   - title: "Troubleshooting"
-    url: /troubleshooting/
-
-  - title: "Error Messages"
-    url: /errors/
+    children:
+    - title: "Webhook Log"
+      url: /troubleshooting/
+    - title: "Common Issues"
+      url: /common-issues/
 
   - title: "License"
     url: /license/
