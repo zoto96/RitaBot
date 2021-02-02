@@ -2,9 +2,9 @@
 main:
   - title: "Home"
     url: /
-  - title: "Quick-Start Guide"
-    url: /quick-start-guide/
-  - title: "About"
+  - title: "Setup RITA"
+    url: /new-bot/
+  - title: "About Us"
     url: /about/
   - title: "Wiki"
     url: /wiki/
