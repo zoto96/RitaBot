@@ -70,19 +70,26 @@ Using language short codes
 
 
 ## Server Admins/Mods
-Send translations to same channel
+Send translations to same channel (not recommended)
 ```c++
-> !translate channel from [english] to [spanish] for #SameChannelMention
+> !translate channel from english to spanish for #current-channel
 ```
 
-Send translations to another channel in server
+Send translations to another channel in server (recommended)
 ```c++
-> !translate channel from [english] to [spanish] for [#OtherChannelMention]
+> !translate channel from english to spanish for #target-channel
 ```
 
-Send translations to multiple channels/users in server at once
+Send translations to multiple channels in the server at once
 ```c++
 > !translate channel from english to spanish for #target-channel-es1, #target-channel-es2, #target-channel-es3, #target-channel-es2
+```
+
+Send translations to channels in other servers the bot is in
+
+ * You need to copy the CHANNEL_ID of the target channel in the other server 
+```c++
+> !translate channel from english to russian for <#CHANNEL_ID>
 ```
 
 ## Stopping
