@@ -22,10 +22,18 @@ toc: true
 
 **Important Note**
 
-*The bot's default prefix is !t (or !translate) - All commands must start with this prefix for the bot to process them.
-Bot must have proper permissions in all relevant channels for full functionality (**read**, **write**, **react**, **mention**, **attachments**, **embed**).*
+*The bot's default prefix is `!t` / `!translate` - All commands must start with this prefix for the bot to process them.
 
-*Users who wish to receive automatic translations in private must **enable DMs** via **server privacy settings**.*
+* Your bot must have a set of permissions for it to function correctly. Here are the permissions your bot requires to function:
+  * Read Permission
+  * Write Permission
+  * Embed Permission
+  * Attachments Permission
+  * Edit Channel Permission
+  * Read Permission
+  * React Permission
+  * Mention Permission
+    * The bot requires these sets of permissions to create webhooks for `embed off` translations and to function overall. Without these your bot will not function as it would not be able to translate or send messages without them. 
 
 ----
 
