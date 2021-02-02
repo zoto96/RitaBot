@@ -56,7 +56,7 @@ RITA is not perfect and there are many places to make mistakes while setting up 
   * Go to Discord and send the following commands:
     * `!t settings dbfix`
    
-* Your bot has now updated the database to correspond to the servers it is in. Please note that if you had this error you may need to go through the [following entry]().
+* Your bot has now updated the database to correspond to the servers it is in. Please note that if you had this error you may need to go through the [following entry](https://ritabot.org/common-issues/#translation-stops-every-24-hours-or-so).
 
 
 
