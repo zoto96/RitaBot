@@ -1,7 +1,7 @@
 ---
-title: "Translate - Reaction Based"
+title: "Discord Reaction Translation"
 permalink: /trans-reac/
-excerpt: "Translate by Reacting to a Message"
+excerpt: "React to any message with a flag emoji and it will be translated with that countries languages. The bot will automatically detect what country flag you placed and it shall be translated to all the official languages of the country."
 last_modified_at: 2019-09-10T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
 redirect_from:
   - /theme-setup/
