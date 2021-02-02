@@ -1,7 +1,7 @@
 ---
-title: "Translate - Channel Automatic"
+title: "Discord Channel Translation "
 permalink: /trans-auto/
-excerpt: "Translate a Channel Automatically"
+excerpt: "Discord Channel Translation using Rita. Translate messages and forward their translations to other channels to allow different language channels between users."
 last_modified_at: 2019-09-10T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
 redirect_from:
   - /theme-setup/
