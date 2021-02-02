@@ -22,14 +22,23 @@ toc: true
 
 **Important Note**
 
-*The bot's default prefix is !t (or !translate) - All commands must start with this prefix for the bot to process them.
-Bot must have proper permissions in all relevant channels for full functionality (**read**, **write**, **react**, **mention**, **attachments**, **embed**).*
+* The bot's default prefix is `!t` or `!translate` - All commands must start with this prefix for the bot to process them.
 
-*Users who wish to receive automatic translations in private must **enable DMs** via **server privacy settings**.*
-
+* Your bot must have a set of permissions for it to function correctly. Here are the permissions your bot requires to function:
+  * Read Permission
+  * Write Permission
+  * Embed Permission
+  * Attachments Permission
+  * Edit Channel Permission
+  * Read Permission
+  * React Permission
+  * Mention Permission
+    * The bot requires these sets of permissions to create webhooks for `embed off` translations and to function overall. Without these your bot will not function as it would not be able to translate or send messages without them. 
+* Please also note that the brackets [ ] are not intended to be in commands. They are only there for illustrative purposes to help you understand how to send a command. If you put a bracket in a command it will not work.
 ----
 
-Automatically translates any new messages in the current channel and forwards them to you. Admins/mods can set forwarding to same channel, other channels or other users in the server. Messages in forwarded channels will also be sent back to origin*.
+*Automatically translates any new messages in the current channel and forwards them to the target channel. Admins/mods can set forwarding to the same channel(not recommended) or other channels(recommended). 
+  * Please note that when you setup an auto command the target channel will not send back to main channel unless you tell it to*
 
 # Command
 ```c++
@@ -37,36 +46,31 @@ Automatically translates any new messages in the current channel and forwards th
 ```
 
 # Parameters
-* for **`[dest]`** _(optional)_  
-Forwarding destination where the translated messages will be sent, defaults to "me" - translations sent via direct/private messages between you and the bot. Admins/mods can use discord mentions as forward destination with possibility to set multiple destinations at once. See examples below.
+* for **`[dest]`**
+The target channel you want the translation of the from **`[lang]`** to go to.  
 
 * to **`[lang]`** _(optional)_  
-The language to translate to, defaults to server default language.
+The language to translate to, defaults to server default language if none provided.
 
-* from **`[lang]`** _(optional)_  
+* from **`[lang]`**  
 The language to translate from.
 
 # Examples  
 Using full language names
 ```c++
-> !translate channel from [english] to [spanish]
+> !t channel from english to spanish for #target-channel
 ```
 
 Using language short codes
 ```c++
-> !translate channel from [en] to [es]
-```
-
-Assigning a user as the target for translations
-```c++
-> !translate channel from [english] to [spanish] for [me]
+> !translate channel from en to es for #target-channel
 ```
 
 
 ## Server Admins/Mods
 Send translations to same channel
 ```c++
-> !translate channel from [english] to [spanish] for [#SameChannelMention]
+> !translate channel from [english] to [spanish] for #SameChannelMention
 ```
 
 Send translations to another channel in server
@@ -74,32 +78,30 @@ Send translations to another channel in server
 > !translate channel from [english] to [spanish] for [#OtherChannelMention]
 ```
 
-Send translations to another user in server
-```c++
-> !translate channel from [english] to [spanish] for [@UserMention]
-```
-
 Send translations to multiple channels/users in server at once
 ```c++
-> !translate channel from [english] to [spanish] for [#Channel1], [#Channel2], [@User1], [@User2]
+> !translate channel from english to spanish for #target-channel-es1, #target-channel-es2, #target-channel-es3, #target-channel-es2
 ```
 
 ## Stopping
 To stop an automatic translation task, simply go the original channel and use the stop command:
 ```c++
 > !translate stop  
-> !translate stop for [me]
+> !translate stop for [destination]
 ```
+
+* for **`[destination]`** 
+The destination, otherwise known as the target channel to stop the translation to.
 
 ## Admins/Mods
 Stop all automatic translations
 ```c++
-> !translate stop for [all]
+> !translate stop for all
 ```
 
 Stop all automatic translations for specific channel in server
 ```c++
-> !translate stop for [#ForwardChannelMention]
+> !translate stop for #target-channel
 ```
 
 Stop all automatic translations for specific user in server
@@ -110,13 +112,13 @@ Stop all automatic translations for specific user in server
 *Help command for stop: `!translate help stop`*
 
 ## Notes
-*Help command for automatic translation: !translate help auto.*
+*Help command for automatic translation: `!translate help auto`.*
 
-Values wrapped in brackets **`[ ]`** mean user input.
+* Values wrapped in brackets **`[ ]`** are solely for illustrative purposes to demonstrate the use of the command. Brackets are not in any command.
+
 **`[lang]`** values can be language names in English, native language names or ISO 639-1 codes. For example, **`german`** **`de`** and **`deutsch`** will all work the same.
 
-Messages by bots are ignored.
+* Messages by all bots are currently ignored to avoid loops, but we are working on different bot modes to enable bot translation.
+    * Any message that begins with `!t` or `!translate` will be determined to be a bot command and thus shall not be allowed to be translated.  
 
-Command messages are also ignored.
-
-If you have a lot of users speaking a different language then it is advised you create a special public channel for them as a destination instead of having each one receive translated messages in private.
+**If you have a community of many languages it would be suggested to create language roles and only give those roles access to view their language channels, blocking @everyone from viewing but allowing @Language Role to view, to tidy up the server and stop users from receiving notifications from languages they dont speak.**
