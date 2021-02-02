@@ -20,7 +20,11 @@ toc: true
 # TZD = time zone designator (Z or +hh:mm or -hh:mm)
 ---
 
-## Get Support?
+## Need help?
 
-Take a look at our [Troubleshooting](/troubleshooting/) pages first, or to get support with your RITA installation, Join our discord server. [![invite](https://img.shields.io/badge/Discord_Support-JOIN-7289DA.svg?)](https://discordapp.com/invite/mgNR64R)
+* Take a look at our [Problem Solving](/common-issues/) and [webhook log](/troubleshooting/) pages
+  * Most common issues can be solved there
+
+
+* Feel free to join our Discord Server for any concerns you may have, we're here to help 😃 [![invite](https://img.shields.io/badge/Discord_Support-JOIN-7289DA.svg?)](https://discordapp.com/invite/mgNR64R)
 
