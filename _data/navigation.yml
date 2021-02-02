@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "Setup RITA"
+  - title: "Install RITA"
     url: /new-bot/
   - title: "About Us"
     url: /about/
