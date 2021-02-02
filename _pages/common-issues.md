@@ -13,7 +13,7 @@ RITA is not perfect and there are many places to make mistakes while setting up 
 
 *If you are attempting to solve problems with your bot please setup [webhook logs](https://ritabot.org/troubleshooting) to assist us and yourself in diagnosing the problem's you are experiencing.* 
 
-# Translation stops every 24 hours or so 
+### Translation stops every 24 hours or so 
 *Otherwise known as `embedvalue` error*
 
 * This occurs when you invited the bot to the Discord Server before it was online and the `embedvalue` is not saving correctly
@@ -25,9 +25,9 @@ RITA is not perfect and there are many places to make mistakes while setting up 
 * Once the commands have been sent the bot should not stop translations anymore and shall only send one message every 24 hours regarding the bot restart.
        
 
-# RITA is unresponsive
+### RITA is unresponsive
 
-*Make sure you have [forked](https://github.com/Zyc0r3/RitaBot/fork)the repository and connected your Github account to Heroku "Deploy" section before proceeding*
+*Make sure you have [forked](https://github.com/Zyc0r3/RitaBot/fork) the repository and connected your Github account to Heroku "Deploy" section before proceeding*
 
 * This occurs on the first deploy of the bot, no discernible reason has been found as to why
   * Go to your [Heroku Page](https://heroku.com/):
@@ -39,7 +39,7 @@ RITA is not perfect and there are many places to make mistakes while setting up 
     
 
 
-# *Bot Restarted* message loop
+### *Bot Restarted* message loop
 
 * This occurs when you have no `embedvalue` in your database, either you have not typed it in/set it or it has not saved correctly
   * Go to Discord and send the following commands:
@@ -50,7 +50,7 @@ RITA is not perfect and there are many places to make mistakes while setting up 
 * Your bot should now translate and `embedvalue` and/or your server has been entered into your database and correctly saved.
 
 
-# Server not registered in database
+### Server not registered in database
 
 * This appears because your bot entered the server before it was online or operational. 
   * Go to Discord and send the following commands:
