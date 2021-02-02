@@ -2,7 +2,7 @@
 title: "Everthing you need to know and more."
 permalink: /wiki/
 excerpt: "Support pages for Rita"
-last_modified_at: 2019-09-10T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
+last_modified_at: 2021-01-01T14:00:00+01:00   #Please Update, The +00:00 is the Time Zone difference
 redirect_from:
   - /theme-setup/
 toc: true
@@ -51,4 +51,7 @@ Miscellaneous Commands
 ### [Requesting features or reporting bugs](https://github.com/ZyC0R3/Rita/issues)
 Request a feature or report a bug, we are grateful for both
 
-Please join the [Official Rita Discord Server](https://discord.gg/mgNR64R) to get support, keep up to date with changes and report bugs, alternatively you can submit your request via a Github [issue tracker](https://github.com/ZyC0R3/Rita/issues). There is always someone that can help you.  
+### Have concerns? 
+* Join the [Rita Discord Server](https://discord.gg/mgNR64R) if you require any assistance
+  * Keep up to date with changes and report bugs
+  * For feature requests or issues feel free to use our [issue tracker](https://github.com/ZyC0R3/Rita/issues) to submit a ticket as well as joining our Discord.  
