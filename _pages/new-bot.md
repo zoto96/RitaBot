@@ -2,7 +2,7 @@
 title: "Installing RITA"
 permalink: /new-bot/
 excerpt: "Installing RITA"
-last_modified_at: 2021-02-01T14:00:00+01:00   
+last_modified_at: 2021-02-01T00:00:00+01:00   
 redirect_from:
   - /theme-setup/
 toc: true
@@ -19,9 +19,9 @@ Rita is a an automatic translation bot built using `discord.js` and `Google Tran
 ### Step 1 - Fork this repository
 * If you don't yet have a Github account, [create one](https://github.com/join)! It's free and easy.
 * Click [here](https://github.com/ZyC0R3/RitaBot/fork) or click the icon below to fork our project.
-<iframe src="https://ghbtns.com/github-btn.html?user=Zyc0r3&repo=RitaBot&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+    <iframe src="https://ghbtns.com/github-btn.html?user=Zyc0r3&repo=RitaBot&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 
-  * While you're at it we would greatly appreciate adding a **star** to our project to promote Rita in Github for others to benefit too. You can do that below.
+  * While you're at it we would greatly appreciate adding a **star** to our project to promote Rita in Github for others to benefit too. You can do that by clicking the icon below and then clicking the ***Star*** image in the top-right corner of the [repo](https://github.com/Zyc0r3/RitaBot).
 <iframe src="https://ghbtns.com/github-btn.html?user=Zyc0r3&repo=RitaBot&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 
 
