@@ -24,6 +24,8 @@ toc: true
 
 * The bot's default prefix is `!t` or `!translate` - All commands must start with this prefix for the bot to process them.
 
+* Please also note that the brackets \[ ] are not intended to be in commands. They are only there for illustrative purposes to help you understand how to send a command. If you put a bracket in a command it will not work.
+
 * Your bot must have a set of permissions for it to function correctly. Here are the permissions your bot requires to function:
   * Read Permission
   * Write Permission
@@ -33,9 +35,10 @@ toc: true
   * Read Permission
   * React Permission
   * Mention Permission
-    * The bot requires these sets of permissions to create webhooks for `embed off` translations and to function overall. Without these your bot will not function as it would not be able to translate or send messages without them. 
-   
-* Please also note that the brackets \[ ] are not intended to be in commands. They are only there for illustrative purposes to help you understand how to send a command. If you put a bracket in a command it will not work.
+    * The bot requires these sets of permissions to create webhooks for `embed off` translations and to function overall. Without these your bot will not function as it would not be able to translate or send messages without them.
+
+
+
 ----
 
 *Automatically translates any new messages in the current channel and forwards them to the target channel. Admins/mods can set forwarding to the same channel(not recommended) or other channels(recommended).*
@@ -92,8 +95,8 @@ Send translations to channels in other servers the bot is in
 > !translate channel from english to russian for <#CHANNEL_ID>
 ```
 
-## Stopping
-To stop an automatic translation task, simply go the original channel and use the stop command:
+## Stopping Translations
+To stop an automatic translation task, simply go the origin channel of the task and use the stop command:
 ```c++
 > !translate stop  
 > !translate stop for [destination]
