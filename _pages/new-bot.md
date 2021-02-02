@@ -2,7 +2,7 @@
 title: "Installing RITA"
 permalink: /new-bot/
 excerpt: "Installing RITA"
-last_modified_at: 2020-09-29T14:00:00+01:00   
+last_modified_at: 2021-02-01T14:00:00+01:00   
 redirect_from:
   - /theme-setup/
 toc: true
@@ -21,29 +21,41 @@ Rita is a an automatic translation bot built using `discord.js` and `Google Tran
 * Click [here](https://github.com/ZyC0R3/RitaBot/fork) or use the button in the upper righthand side of this page to fork the repository so that it will be associated with your Github account.
 
 ### Step 2 - Create a new [Discord App](https://discordapp.com/developers/applications/me/create)
-* Give app a friendly name and click the **Create App** button
-  * I like the name **C-3PO**, but feel free to pick something different if you fear George Lucas's wrath. Maybe **C-4PO**
-* Take note of the app **CLIENT ID**, you will need it later
+* Give your app the name you would like your bot to be then click **Create App**
+  * *I like the name **C-3PO**, but feel free to pick something different if you fear George Lucas's wrath.*
+* Copy the **CLIENT ID** of your bot, you will need it later
 * Scroll down to the **Bot** section
 * Click the **Create a Bot User** button
 * Click the **Yes, do it!** button
 * Copy the bot's **TOKEN**, you will need it later
+    * **CLIENT ID** will be a string of numbers will your bots **TOKEN** will be a huge mix of letters and numbers.
 
 
 ### Step 3 - Create a Heroku account
+
+*Heroku is a PaAs (platform as a service). They provide hosting services for free so this will be where your bot will be hosted. You can always run your bot locally or on a personal machine (though the hosting device would constantly need to allocate memory and power to the Bot for it to be online), look at [this page](https://ritabot.org/local/) for more assistance*
+
 * Create a new app. It's name must be unique and composed of all lowercase letters and dashes. Something like `yourname-discordbot` is fine
-* Under **Deployment Method** select Github. Connect to your Github account and search for this repository by name.
-* Scroll down to the manual deploy section, and select the **Master** branch. Click deploy branch, and wait for the successfully deployed message.
-* Go to the **Resources** tab and look for the addons section. Search 'Postgres', and add a 'Hobby Dev - Free' version of Heroku Postgres. This will be automatically attached as your bot's database.
+* Under **Deployment Method** select Github. Connect to your Github account and search for **RitaBot**, once it appears click on it to connect your fork.
+* Scroll down to the manual deploy section, and make sure the **master** branch is selected. Click deploy branch, and wait for the successfully deployed message.
+* Go to the **Resources** tab and look for the addons section. Search 'Heroku Postgres', and add 'Hobby Dev - Free' version of Heroku Postgres. This will be automatically attached as your bot's database.
 * Go to the **Settings** tab. Click to reveal Config Variables, then add then add the following:
   * **KEY:** =  DISCORD_TOKEN
-  * **Value:** = Your discord bot's token that you copied earlier.
+  * **Value:** = *Your discord bot's token that you copied earlier.*
   * **KEY:** =  NODE_MODULES_CACHE
   * **Value:** = false
     * *This is to ensure that when the bot updates it does not use any old Dependencies that Heroku has stored and gets fresh ones from the package.json file*
+
 * Go to the **Overview** tab and click configure dynos. Turn off the default `web npm start` dyno and turn on the `worker node src/bot.js` dyno. Your bot will now be up and running!
+  * Make sure to do this or your bot shall crash!
 
 ### Step 4 - Invite your bot to your server and configure it!
-* Replace the CLIENTID string in the following URL with your own apps client id from Step 2: https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8
+* Replace the **CLIENTID** string in the following URL with your own apps client id from Step 2
+     * https://discordapp.com/oauth2/authorize?&client_id=**CLIENTID**&scope=bot&permissions=8
 * Visit the resulting URL and add your bot to any server where you have admin privileges.
-* Once added, your bot should show up more or less instantaneously. Type `!t help` within the discord chat for more details on how to use it. Happy translating!
+
+### Step 5 - Redeploy your bot
+* Go back to [Heroku](https://heroku.com/) and go to the "Deploy" Section of your Heroku Application. Scroll down to 'Manual Deploy' and click deploy for the **master** branch. Once deployed type in the chat `!t help` and then `!t embed on` or `!t embed off`. Then translate away ;)
+
+
+
