@@ -34,11 +34,13 @@ toc: true
   * React Permission
   * Mention Permission
     * The bot requires these sets of permissions to create webhooks for `embed off` translations and to function overall. Without these your bot will not function as it would not be able to translate or send messages without them. 
-* Please also note that the brackets [ ] are not intended to be in commands. They are only there for illustrative purposes to help you understand how to send a command. If you put a bracket in a command it will not work.
+   
+* Please also note that the brackets \[ ] are not intended to be in commands. They are only there for illustrative purposes to help you understand how to send a command. If you put a bracket in a command it will not work.
 ----
 
-*Automatically translates any new messages in the current channel and forwards them to the target channel. Admins/mods can set forwarding to the same channel(not recommended) or other channels(recommended). 
-  * Please note that when you setup an auto command the target channel will not send back to main channel unless you tell it to*
+*Automatically translates any new messages in the current channel and forwards them to the target channel. Admins/mods can set forwarding to the same channel(not recommended) or other channels(recommended).*
+
+  *Please note that when you setup an auto command the target channel will not send back to main channel unless you tell it to*
 
 # Command
 ```c++
