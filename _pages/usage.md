@@ -22,22 +22,23 @@ toc: true
 
 **Important Note**
 
-*The bot's default prefix is !t (or !translate) - All commands must start with this prefix for the bot to process them.
-Bot must have proper permissions in all relevant channels for full functionality (**read**, **write**, **react**, **mention**, **attachments**, **embed**).*
-
-*Users who wish to receive automatic translations in private must **enable DMs** via **server privacy settings**.*
+* Your bot must have a set of permissions for it to function correctly. Here are the permissions your bot requires to function:
+  * Read Permission
+  * Write Permission
+  * Embed Permission
+  * Attachments Permission
+  * Edit Channel Permission
+  * Read Permission
+  * React Permission
+  * Mention Permission
+    * The bot requires these sets of permissions to create webhooks for `embed off` translations and to function overall. Without these your bot will not function as it would not be able to translate or send messages without them. 
 
 ----
 
 ## Prefix and Commands
 
-The bot's default prefix is !t (or !translate) - All commands must start with this prefix for the bot to process them.
+The bot's default prefix is `!t`, or `!translate ` - All commands must start with this prefix for the bot to process them.
 
-### Important Notes
-
-* Users who wish to receive automatic translations in private must **enable DMs** via **server privacy settings**.
-
-* Bot must have proper permissions in all relevant channels for full functionality (**read**, **write**, **react**, **mention**, **attachments**, **embed**).
 
 ### Command structure
 
@@ -48,13 +49,13 @@ The bot's default prefix is !t (or !translate) - All commands must start with th
 **For Example:**
 
 ```c++
-!translate help misc
+!translate help modules
 ```
 ```c++
-!t help misc
+!t help modules
 ```
 ```c++
-@Translator help misc
+@Translator help modules
 ```
 
 ### Get help inside Discord
@@ -64,6 +65,7 @@ Use this command within any channel the bot has permissions
 !translate help
 ```
 
-### Requesting features or reporting bugs
+### Requesting features, reporting bugs and more
 
-Please join the [Official Rita Discord Server](https://discord.gg/mgNR64R) to get support, keep up to date with changes and report bugs, alternatively you can submit your request via a Github [issue tracker](https://github.com/ZyC0R3/Rita/issues). There is always someone that can help you.  
+* Join the [Official Rita Discord Server](https://discord.gg/mgNR64R) to get support 
+  * Keep up to date with changes and report bugs, alternatively you can submit your request via a Github [issue tracker](https://github.com/ZyC0R3/Rita/issues). *There is always someone that can help you.*
