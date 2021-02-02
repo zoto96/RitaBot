@@ -2,7 +2,7 @@
 title: "Installing RITA"
 permalink: /new-bot/
 excerpt: "Installing RITA"
-last_modified_at: 2021-02-01T00:00:00+01:00   
+last_modified_at: 2021-02-02T00:00:00+01:00   
 redirect_from:
   - /theme-setup/
 toc: true
@@ -35,7 +35,7 @@ Rita is a an automatic translation bot built using `discord.js` and `Google Tran
 * Click the **Create a Bot User** button
 * Click the **Yes, do it!** button
 * Copy the bot's **TOKEN**, you will need it later
-    * **CLIENT ID** will be a string of numbers will your bots **TOKEN** will be a huge mix of letters and numbers.
+    * **CLIENT ID** will be a string of numbers while your bots **TOKEN** will be a huge mix of letters and numbers.
 
 
 ### Step 3 - Create a Heroku account
