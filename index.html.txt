@@ -3,10 +3,11 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="RITA, Real-Time Interchangeable, RITA, Real-Time Interchangeable, Discord, Translator, Discord.js, Rita, Free, Free Discord Bot,  Free Discord Translator Bot,   Discord Bot, Needed, Helpful, Useful,  Github Discord Translator, Discord Translator Bot, Translator, Translate bot, automatic channel translator, Discord Translate, Translater, Translation Bot, channel translator, flag translator, discord.js translater">
-    <meta name="description" content="Rita, a free Discord Translater for all with flag translation, channel translation and much more. Make your own translator bot today! We are not a company, but a group of people looking to help others in multilingual Discord communities. Rita is completely open-source and free so make your Discord Translation Bot today!">
+    <meta name="keywords" content="RITA, Discord, Discord Translator, Best Discord Translator, Free Discord Translator, powerful translation bot, open source, open source translator, language translator discord, Discord Translation, Discord Translator Bot">
+    <meta name="description" content="Rita Discord Translator, one of the most powerful, open-source, easy to make and free Discord Translation bots out there. Helping thousands of people cross the language barrier daily, use our guide to get your own Translation Bot today. We are a community-driven project intended for everyone.">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>RITA | Free Discord Translator</title>
+    <meta name="google-site-verification" content="A4ifm6blQ-yy-FDOU1oJRvGeNBHzdOyRiI4lEWZOv-k" />
+    <title>Discord Translator - RITA</title>
     <link rel="stylesheet" href="index/page.css" media="screen">
 <link rel="stylesheet" href="index/index.css" media="screen">
     <script class="u-script" type="text/javascript" src="index/jquery-1.9.1.min.js" defer=""></script>
@@ -28,7 +29,7 @@
     
     <meta property="og:title" content="Discord Translator | RITA">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Rita, a free Discord Translater for all with flag translation, channel translation and much more. Make your own translator bot today! We are not a company, but a group of people looking to help others in multilingual Discord communities. Rita is completely open-source and free so make your Discord Translation Bot today!">
+    <meta property="og:description" content="Rita Discord Translator, one of the most powerful, open-source, easy to make and free Discord Translation bots out there. Helping thousands of people cross the language barrier daily, use our guide to get your own Translation Bot today. We are a community-driven project intended for everyone.">
     <link rel="canonical" href="https://ritabot.org/">
     <meta property="og:url" content="https://ritabot.org/index.html">
   </head>
