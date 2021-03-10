@@ -19,18 +19,21 @@ toc: true
 # ss = two digits of second (00 through 59)
 # TZD = time zone designator (Z or +hh:mm or -hh:mm)
 ---
-Rita is a an automatic translation bot built using `discord.js` and `Google Translate API`.
+Rita is an automatic translation bot built using `discord.js` and `Google Translate API`.
 
-This Method does not need you to Fork this repository, you can run your not straight off of the Rita Master Branch. For update instructions click [here](/update/)
-##  Deploy to Heroku.
+This Method does not need you to Fork this repository, you can run your bot straight off the Rita Master Branch. For update instructions click [here](/update/)
+
+## Deploy to Heroku.
+
 ### Step 1 - Create a new [Discord App](https://discordapp.com/developers/applications/me/create)
+
 * Give app a friendly name and click the **Create App** button
   * I like the name **C-3PO**, but feel free to pick something different if you fear George Lucas's wrath. Maybe **C-4PO**
-* Take note of the app **CLIENT ID**, you will need it later
-* Scroll down to the **Bot** section
+* Take note of the app **CLIENT ID**, you will need it later.
+* Scroll down to the **Bot** section.
 * Click the **Create a Bot User** button
-* Click the **Yes, do it!** button
-* Copy the bot's **TOKEN**, you will need it later
+* Click the **Yes, do it!** button.
+* Copy the bot's **TOKEN**, you will need it later.
 
 ### Step 2 - Deploy to Heroku
 
@@ -38,11 +41,13 @@ This Method does not need you to Fork this repository, you can run your not stra
 
 * In the custom variable of **DISCORD_TOKEN** put in the copied token of your created bot.
 * **DO NOT CHANGE** the **NODE_MODULES_CACHE** Variable unless you know about Heroku Caching.
-* If you with to use Webhook Debug logging:
+* If you wish to use Webhook Debug logging:
   * Fill in **DISCORD_DEBUG_WEBHOOK_ID** & **DISCORD_DEBUG_WEBHOOK_TOKEN**, For instructions go [here](#troubleshooting)
-* Once installed, Go to the **Overview** tab and click configure dynos. Turn off the default `web npm start` dyno and turn on the `worker node src/bot.js` dyno. Your bot will now be up and running!
+* Once installed, go to the **Overview** tab and click configure dynos. Turn off the default `web npm start` dyno and turn on the `worker node src/bot.js` dyno. Your bot will now be up and running!
 
 ### Step 3 - Invite your bot to your server and configure it!
+
 * Replace the CLIENTID string in the following URL with your own apps client id from Step 2: https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8
 * Visit the resulting URL and add your bot to any server where you have admin privileges.
 * Once added, your bot should show up more or less instantaneously. Type `!t help` within the discord chat for more details on how to use it. Happy translating!
+
