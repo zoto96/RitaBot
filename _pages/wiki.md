@@ -38,28 +38,37 @@ toc: true
 ----
 
 ### [Translate Channel Automatic](/trans-auto/)
-Automatically translates any new messages in the current channel and forwards them to you. Admins/mods can set forwarding to same channel, other channels or other users in the server. Messages in forwarded channels will also be sent back to origin*.
+
+Automatically translates any new messages in the current channel and forwards them to you. Admins/mods can set forwarding to same channel, other channels or other users in the server. Messages in forwarded channels will also be sent back to origin.
 
 ### [Translate by Reacting](/trans-reac/)
+
 Translates a message in the server when you react to it with a flag emoji.
 
 ### [Translate Last Message](/trans-last/)
+
 Translates last message chain(s) in channel.  
 A chain is a collection of messages by the same author, to keep things simple.
 
 ### [Translate Custom Message](/trans-cust/)
+
 Translates a custom message entered by user.
 
 ### [Settings](/trans-sett/)
+
 These commands are available only to admins.
 
 ### [Misc. Commands](/trans-misc/)
+
 Miscellaneous Commands
 
 ### [Requesting features or reporting bugs](https://github.com/ZyC0R3/Rita/issues)
-Request a feature or report a bug, we are grateful for both
+
+Request a feature or report a bug, we are grateful for both!
 
 ### Have concerns? 
-* Join the [Rita Discord Server](https://discord.gg/mgNR64R) if you require any assistance
-  * Keep up to date with changes and report bugs
+
+* Join the [Rita Discord Server](https://discord.gg/mgNR64R) if you require any assistance.
+  * Keep up to date with changes and report bugs.
   * For feature requests or issues feel free to use our [issue tracker](https://github.com/ZyC0R3/Rita/issues) to submit a ticket as well as joining our Discord.  
+
