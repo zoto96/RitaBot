@@ -17,13 +17,13 @@ Session cookies are temporary cookies that are used during the course of your vi
 
 Persistent cookies are used to remember your preferences within our Website and remain on your desktop or mobile device even after you close your browser or restart your computer. They ensure a consistent and efficient experience for you while visiting the Website and Services.
 
-Cookies may be set by the Website ("first-party cookies"), or by third parties, such as those who serve content or provide advertising or analytics services on the Website ("third party cookies"). These third parties can recognize you when you visit our website and also when you visit certain other websites.
+Cookies may be set by the Website ("first-party cookies"), or by third parties, such as those who serve content or provide advertising or analytics services on the Website ("third party cookies"). These third parties can recognize you when you visit our website and when you visit certain other websites.
 
 ## What type of cookies do we use?
 
 - Analytical cookies
 
-These cookies enable us and third party services to collect aggregated data for statistical purposes on how our visitors use the Website. These cookies do not contain personal information such as names and email addresses and are used to help us improve your user experience of the Website.
+These cookies enable us and third-party services to collect aggregated data for statistical purposes on how our visitors use the Website. These cookies do not contain personal information such as names and email addresses and are used to help us improve your user experience of the Website.
 
 ## What are your cookie options?
 
@@ -42,3 +42,5 @@ You acknowledge that you have read this Policy and agree to all its terms and co
 If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to our use of cookies, you may do so via our [Discord Server](https://discord.gg/mgNR64R)
 
 * ***This document was last updated on November 2nd, 2020.***
+
+
