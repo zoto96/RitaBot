@@ -22,11 +22,11 @@ toc: true
 
 ## What is Rita and who are we?
 
-*Rita is the culmination of many things, it started with a mobile game, a community of gamers, a discord server of different languages and a desire to all be understood. She is a Real-Time Translator Bot for use on Discord, Self-hosted on Heroku (or a local install) and Completly **100%** Free. She is maintained by a small group of users, each with diffrent backgrounds and some learning as we go.*
+*Rita is the culmination of many things, it started with a mobile game, a community of gamers, a discord server of different languages and a desire to all be understood. She is a Real-Time Translator Bot for use on Discord, Self-hosted on Heroku (or a local install) and Completely 100% Free. She is maintained by a small group of users, each with different backgrounds and some learning as we go.*
 
 ## Why did you make Rita?
 
-*The mobile game itself would get old, fast. The community around it, however, is what kept us going. The one downside was we didn't all speak the same language. The game we played translated our conversations for us but Discord didn't,  so the server admins used a  translation bot called C-3P0. This introduction is the start of the story.*
+*The mobile game itself would get old, fast. The community around it, however, is what kept us going. The one downside was we did not all speak the same language. The game we played translated our conversations for us, but Discord did not, so the server admins used a translation bot called C-3P0. This introduction is the start of the story.*
 
 ## The history of Rita?
 
@@ -38,8 +38,8 @@ toc: true
 
 *I and a group of fellow C-3P0 users decided that collectively we could do better, plagued with crashes, API changes, relentless bugs and issues, the drive to make something better was born.*
 
-*Rita's history and various iterations each added something extra, it just needed to be brought together and moulded, moulded into something amazing, moulded into Rita. The Real-Time Interchangeable Translating Assistant.*
+*Rita's history and various iterations each added something extra, it just needed to be brought together and molded, molded into something amazing, molded into Rita. The Real-Time Interchangeable Translating Assistant.*
 
 ------
 
-*There you have it, the story, dramatised and electrified for effect, but all true, of how Rita was born.*
+*There you have it, the story, dramatized and electrified for effect, but all true, of how Rita was born.*
