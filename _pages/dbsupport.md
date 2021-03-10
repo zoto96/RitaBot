@@ -45,6 +45,8 @@ For a fresh install of pgAdmin, the dashboard likely contains only one server. T
   * **Password:** The password field located in Step 3. I highly advise checking save password so that you don’t have to copy & paste this every time you want to connect.
   * In the **SSL Tab**, mark SSL mode as require.
 
+### Step 3
+
 At this point, if we were to hit ‘save’ (please don’t), something very strange would happen. You would see hundreds if not thousands of databases appear in pgAdmin. This has to do with how Heroku configures their servers. You will still only have access to your specific database, not those of others. In order to avoid parsing so many databases, we must whitelist only those databases we care about.
 
 1. Go to the **Advanced** tab and under db restriction copy the database name (it is the same value as the **Maintenance Database** field filled earlier).
