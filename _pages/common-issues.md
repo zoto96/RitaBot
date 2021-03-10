@@ -16,7 +16,7 @@ RITA is not perfect and there are many places to make mistakes while setting up 
 ### Translation stops every 24 hours or so 
 *Otherwise known as `embedvalue` error*
 
-* This occurs when you invited the bot to the Discord Server before it was online and the `embedvalue` is not saving correctly
+* This occurs when you invited the bot to the Discord Server before it was online and the `embedvalue` is not saving correctly.
   * Go to Discord and run these commands in order:
     * `!t settings dbfix`
     * `!t settings updatedb`
@@ -29,19 +29,19 @@ RITA is not perfect and there are many places to make mistakes while setting up 
 
 *Make sure you have [forked](https://github.com/Zyc0r3/RitaBot/fork) the repository and connected your Github account to Heroku "Deploy" section before proceeding*
 
-* This occurs on the first deploy of the bot, no discernible reason has been found as to why
+* This occurs on the first deploy of the bot, no discernible reason has been found as to why.
   * Go to your [Heroku Page](https://heroku.com/):
-    * Go to the "Deploy" section in Heroku and make sure your fork is connected
-    * Scroll down to the "Manual Deploy"
-    * Deploy the *master* branch
+    * Go to the "Deploy" section in Heroku and make sure your fork is connected.
+    * Scroll down to the "Manual Deploy."
+    * Deploy the *master* branch.
 
-* Your bot will now be working once finished deploying and then type in `!t embed on` or `!t embed off` (They are two different translation styles!) to finish setting up the bot for translation
+* Your bot will now be working once finished deploying and then type in `!t embed on` or `!t embed off` (They are two different translation styles!) to finish setting up the bot for translation.
     
 
 
 ### *Bot Restarted* message loop
 
-* This occurs when you have no `embedvalue` in your database, either you have not typed it in/set it or it has not saved correctly
+* This occurs when you have no `embedvalue` in your database, either you have not typed it in/set it or it has not saved correctly.
   * Go to Discord and send the following commands:
     * `!t settings dbfix`
     * `!t settings updatedb`
@@ -62,3 +62,5 @@ RITA is not perfect and there are many places to make mistakes while setting up 
 
 
 If you require more assistance join our [Discord Server](https://discord.gg/mgNR64R)
+
+
