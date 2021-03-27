@@ -1,614 +1,116 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="RITA, Discord, Discord Translator, Best Discord Translator, Free Discord Translator, powerful translation bot, open source, open source translator, language translator discord, Discord Translation, Discord Translator Bot">
-    <meta name="description" content="Rita Discord Translator, one of the most powerful, open-source, easy to make and free Discord Translation bots out there. Helping thousands of people cross the language barrier daily, use our guide to get your own Translation Bot today. We are a community-driven project intended for everyone.">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <meta name="google-site-verification" content="A4ifm6blQ-yy-FDOU1oJRvGeNBHzdOyRiI4lEWZOv-k" />
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Discord Translator - RITA</title>
-    <link rel="stylesheet" href="index/page.css" media="screen">
-    <script class="u-script" type="text/javascript" src="index/jquery-1.9.1.min.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="index/page.js" defer=""></script>
-    <link rel="canonical" href="https://ritabot.org/">
-    <link rel="icon" href="index/images/favicon.png">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,990i|Ubuntu:300,300i,400,400i,500,500i,700,700i">
-    <style class="u-style">.u-section-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-}
-.u-section-2 .u-sheet-1 {
-  min-height: 866px;
-}
-.u-section-2 .u-text-1 {
-  animation-duration: 1750ms;
-  margin: 241px 960px 0 0;
-}
-.u-section-2 .u-text-2 {
-  animation-duration: 1250ms;
-  margin: 33px 248px 0 14px;
-}
-.u-section-2 .u-btn-1 {
-  background-image: none;
-  margin: 37px auto 60px 18px;
-}
-@media (max-width: 1199px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 714px;
-  }
-  .u-section-2 .u-text-1 {
-    margin-right: 760px;
-  }
-  .u-section-2 .u-text-2 {
-    margin-left: 0;
-    margin-right: 62px;
-  }
-  .u-section-2 .u-btn-1 {
-    margin-left: 0;
-  }
-}
-@media (max-width: 991px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 903px;
-  }
-  .u-section-2 .u-text-1 {
-    margin-right: 540px;
-  }
-  .u-section-2 .u-text-2 {
-    margin-right: 0;
-  }
-  .u-section-2 .u-btn-1 {
-    margin-top: 48px;
-  }
-}
-@media (max-width: 767px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 677px;
-  }
-  .u-section-2 .u-text-1 {
-    margin-right: 360px;
-  }
-}
-@media (max-width: 575px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 911px;
-  }
-  .u-section-2 .u-text-1 {
-    margin-right: 160px;
-  }
-}</style>
-    <style class="u-style">.u-section-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.pinimg.com/originals/d4/ac/d8/d4acd879c28c1ca116846c1ab6170b59.jpg");
-  min-height: 882px;
-}
-.u-section-3 .u-layout-wrap-1 {
-  margin-top: 485px;
-  margin-bottom: 0;
-}
-.u-section-3 .u-layout-cell-1 {
-  min-height: 404px;
-}
-.u-section-3 .u-container-layout-1 {
-  padding: 30px;
-}
-.u-section-3 .u-text-1 {
-  text-transform: none;
-  margin: 27px 69px 0 121px;
-}
-.u-section-3 .u-text-2 {
-  font-size: 1.25rem;
-  margin: 20px 102px 0 121px;
-}
-.u-section-3 .u-btn-1 {
-  background-image: none;
-  border-style: solid;
-  font-size: 1.125rem;
-  margin: 20px auto 0 129px;
-}
-.u-section-3 .u-layout-cell-2 {
-  min-height: 404px;
-}
-.u-section-3 .u-container-layout-2 {
-  padding: 30px;
-}
-.u-section-3 .u-text-3 {
-  text-transform: none;
-  margin: 20px 181px 0 0;
-}
-.u-section-3 .u-text-4 {
-  font-size: 1.25rem;
-  margin: 13px 181px 0 0;
-}
-.u-section-3 .u-btn-2 {
-  background-image: none;
-  border-style: solid;
-  margin: 20px auto 0 13px;
-}
-.u-section-3 .u-layout-wrap-2 {
-  margin-top: -889px;
-  margin-bottom: 60px;
-}
-.u-section-3 .u-layout-cell-3 {
-  min-height: 431px;
-}
-.u-section-3 .u-container-layout-3 {
-  padding: 30px;
-}
-.u-section-3 .u-text-5 {
-  text-transform: none;
-  margin: 67px 276px 0 104px;
-}
-.u-section-3 .u-text-6 {
-  font-size: 1.25rem;
-  margin: -42px 54px 0 104px;
-}
-.u-section-3 .u-btn-3 {
-  background-image: none;
-  border-style: solid;
-  margin: 29px auto 0 122px;
-}
-.u-section-3 .u-layout-cell-4 {
-  min-height: 431px;
-}
-.u-section-3 .u-container-layout-4 {
-  padding: 30px;
-}
-.u-section-3 .u-text-7 {
-  text-transform: none;
-  margin: 67px 269px 0 0;
-}
-.u-section-3 .u-text-8 {
-  font-size: 1.25rem;
-  margin: 20px 89px 0 20px;
-}
-.u-section-3 .u-btn-4 {
-  background-image: none;
-  border-style: solid;
-  margin: 20px auto 0 29px;
-}
-@media (max-width: 1199px) {
-  .u-section-3 {
-    min-height: 839px;
-  }
-  .u-section-3 .u-layout-wrap-1 {
-    margin-top: 435px;
-  }
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 334px;
-  }
-  .u-section-3 .u-text-1 {
-    width: auto;
-    margin-right: 84px;
-  }
-  .u-section-3 .u-text-2 {
-    width: auto;
-    margin-right: 58px;
-  }
-  .u-section-3 .u-btn-1 {
-    margin-top: 23px;
-    margin-left: 148px;
-  }
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 334px;
-  }
-  .u-section-3 .u-text-3 {
-    margin-right: 81px;
-  }
-  .u-section-3 .u-text-4 {
-    width: auto;
-    margin-top: 12px;
-    margin-right: 84px;
-    margin-left: 3px;
-  }
-  .u-section-3 .u-btn-2 {
-    margin-top: 8px;
-    margin-left: 12px;
-  }
-  .u-section-3 .u-layout-wrap-2 {
-    margin-top: -776px;
-  }
-  .u-section-3 .u-layout-cell-3 {
-    min-height: 355px;
-  }
-  .u-section-3 .u-text-5 {
-    width: auto;
-    margin-top: 60px;
-    margin-right: 159px;
-    margin-left: 121px;
-  }
-  .u-section-3 .u-text-6 {
-    width: auto;
-    margin-top: -45px;
-    margin-right: 32px;
-    margin-left: 121px;
-  }
-  .u-section-3 .u-btn-3 {
-    margin-top: 12px;
-    margin-left: 140px;
-  }
-  .u-section-3 .u-layout-cell-4 {
-    min-height: 355px;
-  }
-  .u-section-3 .u-text-7 {
-    width: auto;
-    margin-top: 56px;
-    margin-right: 105px;
-    margin-left: 12px;
-  }
-  .u-section-3 .u-text-8 {
-    width: auto;
-    margin-right: 81px;
-    margin-left: 15px;
-  }
-  .u-section-3 .u-btn-4 {
-    margin-left: 0;
-  }
-}
-@media (max-width: 991px) {
-  .u-section-3 {
-    min-height: 863px;
-  }
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 348px;
-  }
-  .u-section-3 .u-text-1 {
-    margin-top: 34px;
-    margin-right: 107px;
-    margin-left: 55px;
-  }
-  .u-section-3 .u-text-2 {
-    margin-right: 3px;
-    margin-left: 66px;
-  }
-  .u-section-3 .u-btn-1 {
-    margin-top: 8px;
-    margin-left: 85px;
-  }
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 348px;
-  }
-  .u-section-3 .u-text-3 {
-    margin-right: 0;
-  }
-  .u-section-3 .u-text-4 {
-    margin-top: 20px;
-    margin-right: 12px;
-    margin-left: 0;
-  }
-  .u-section-3 .u-btn-2 {
-    margin-top: 23px;
-    margin-left: 21px;
-  }
-  .u-section-3 .u-layout-cell-3 {
-    min-height: 100px;
-  }
-  .u-section-3 .u-text-5 {
-    margin-top: 91px;
-    margin-right: calc(((100% - 720px) / 2) + 300px);
-    margin-left: calc(((100% - 720px) / 2) + 240px);
-  }
-  .u-section-3 .u-text-6 {
-    margin-top: -36px;
-    margin-right: calc(((100% - 720px) / 2) + 215px);
-    margin-left: calc(((100% - 720px) / 2) + 254px);
-  }
-  .u-section-3 .u-btn-3 {
-    width: 143px;
-    margin-top: 31px;
-    margin-right: calc(((100% - 720px) / 2) + 281px);
-    margin-left: auto;
-  }
-  .u-section-3 .u-layout-cell-4 {
-    min-height: 100px;
-  }
-  .u-section-3 .u-text-7 {
-    margin-top: 91px;
-    margin-right: 7px;
-    margin-left: 0;
-  }
-  .u-section-3 .u-text-8 {
-    margin-top: 30px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .u-section-3 .u-btn-4 {
-    margin-top: 31px;
-  }
-}
-@media (max-width: 767px) {
-  .u-section-3 {
-    min-height: 1288px;
-  }
-  .u-section-3 .u-layout-wrap-1 {
-    margin-top: 578px;
-  }
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 287px;
-  }
-  .u-section-3 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .u-section-3 .u-text-1 {
-    margin-top: 20px;
-    margin-right: 133px;
-    margin-left: 78px;
-  }
-  .u-section-3 .u-text-2 {
-    margin-top: 34px;
-  }
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 300px;
-  }
-  .u-section-3 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .u-section-3 .u-text-3 {
-    width: auto;
-    margin-top: 0;
-    margin-right: 319px;
-    margin-left: 66px;
-  }
-  .u-section-3 .u-text-4 {
-    margin-top: 30px;
-    margin-right: 136px;
-    margin-left: 66px;
-  }
-  .u-section-3 .u-btn-2 {
-    margin-top: 18px;
-    margin-left: 78px;
-  }
-  .u-section-3 .u-layout-wrap-2 {
-    margin-top: -1171px;
-  }
-  .u-section-3 .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .u-section-3 .u-text-5 {
-    margin-top: 27px;
-    margin-right: 393px;
-    margin-left: 78px;
-  }
-  .u-section-3 .u-text-6 {
-    margin-top: -42px;
-    margin-right: 269px;
-    margin-left: 66px;
-  }
-  .u-section-3 .u-btn-3 {
-    margin-top: 18px;
-    margin-right: auto;
-    margin-left: 85px;
-  }
-  .u-section-3 .u-container-layout-4 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .u-section-3 .u-text-7 {
-    margin-top: -11px;
-    margin-right: 199px;
-    margin-left: 78px;
-  }
-  .u-section-3 .u-text-8 {
-    margin-top: 9px;
-    margin-right: 47px;
-    margin-left: 66px;
-  }
-  .u-section-3 .u-btn-4 {
-    margin-top: 18px;
-    margin-left: 86px;
-    padding: 10px 30px 11px;
-  }
-}
-@media (max-width: 575px) {
-  .u-section-3 {
-    min-height: 1193px;
-  }
-  .u-section-3 .u-layout-wrap-1 {
-    margin-top: 524px;
-  }
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 238px;
-  }
-  .u-section-3 .u-container-layout-1 {
-    padding-top: 14px;
-  }
-  .u-section-3 .u-text-1 {
-    margin-top: 34px;
-    margin-right: 81px;
-    margin-left: 46px;
-  }
-  .u-section-3 .u-text-2 {
-    margin-top: 7px;
-    margin-right: 67px;
-    margin-left: 46px;
-  }
-  .u-section-3 .u-btn-1 {
-    margin-top: 18px;
-    margin-bottom: -17px;
-    margin-left: 62px;
-  }
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 284px;
-  }
-  .u-section-3 .u-text-3 {
-    margin-right: 145px;
-    margin-left: 40px;
-  }
-  .u-section-3 .u-text-4 {
-    margin-top: 25px;
-    margin-right: 73px;
-    margin-left: 40px;
-  }
-  .u-section-3 .u-btn-2 {
-    margin-left: 53px;
-  }
-  .u-section-3 .u-layout-wrap-2 {
-    margin-top: -1078px;
-  }
-  .u-section-3 .u-layout-cell-3 {
-    min-height: 342px;
-  }
-  .u-section-3 .u-text-5 {
-    margin-top: 0;
-    margin-right: 261px;
-    margin-left: 40px;
-  }
-  .u-section-3 .u-text-6 {
-    margin-top: -22px;
-    margin-right: 140px;
-    margin-left: 40px;
-  }
-  .u-section-3 .u-btn-3 {
-    margin-top: 13px;
-    margin-left: 53px;
-  }
-  .u-section-3 .u-layout-cell-4 {
-    min-height: 236px;
-  }
-  .u-section-3 .u-text-7 {
-    margin-top: -97px;
-    margin-right: calc(((100% - 340px) / 2));
-    margin-left: 40px;
-  }
-  .u-section-3 .u-text-8 {
-    margin-top: 28px;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-  .u-section-3 .u-btn-4 {
-    margin-top: 13px;
-    margin-left: 53px;
-  }
-}</style>
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "RITA",
-		"url": "https://ritabot.org/index.html",
-		"logo": "https://ritabot.org/index/images/favicon.png"
-}</script>
-    <meta property="og:title" content="Discord Translator - RITA">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="Rita Discord Translator,  one of the most powerful open-source and free Discord Translation bots out there. Helping thousands of people cross the language barrier daily, make your Discord Translation Bot today. ">
-    <meta name="theme-color" content="#b1363e">
-    <link rel="canonical" href="https://ritabot.org/">
-    <meta property="og:url" content="https://ritabot.org/index.html">
-  
-<!-- Google Analytics --> 
- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179123801-1"></script>
- <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("js", new Date());
-    gtag("config", "UA-179123801-1");
-</script></head>
-  <body class="u-body u-overlap u-overlap-contrast u-overlap-transparent">
-<header class="u-clearfix u-header u-header" id="sec-80f3"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="https://ritabot.org/" class="u-border-2 u-border-white u-image u-image-circle u-logo u-image-1" data-image-width="173" data-image-height="173" title="Logo">
-          <img src="index/images/android-chrome-192x192.png" class="u-logo-image u-logo-image-1" data-image-width="67.4616" alt="Discord Translator Bot | Rita Logo">
-        </a>
-        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
-          <div class="menu-collapse" style="font-size: 1.25rem; letter-spacing: 0px;">
-            <a class="u-button-style u-custom-border-radius u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-              <svg><use xlink:href="#menu-hamburger"></use></svg>
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</symbol>
-</defs></svg>
-            </a>
-          </div>
-          <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-grey-15" href="/" style="padding: 6px 16px;">Home</a>
-<div class="u-nav-popup fake u-hidden">               <ul class="u-nav u-unstyled"><li class="u-nav-item"><a class="u-nav-link">Menu Item 1</a></li><li class="u-nav-item"><a class="u-nav-link">Menu Item 2</a></li><li class="u-nav-item"><a class="u-nav-link">Menu Item 3</a></li>               </ul>           </div></li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-grey-15" href="/new-bot/" style="padding: 6px 16px;">Setup Your Bot</a>
-</li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-grey-15" href="/common-issues" style="padding: 6px 16px;">Common Issues</a>
-</li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-grey-15" href="/support/" style="padding: 6px 16px;">Support</a>
-</li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-grey-15" href="/wiki/" style="padding: 6px 16px;">Wiki</a>
-</li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-grey-15" href="/about/" style="padding: 6px 16px;">About</a>
-</li></ul>
-          </div>
-          <div class="u-custom-menu u-nav-container-collapse">
-            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-sidenav-overflow">
-                <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/" style="padding: 6px 16px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/new-bot/" style="padding: 6px 16px;">Setup Your Bot</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/common-issues" style="padding: 6px 16px;">Common Issues</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/support/" style="padding: 6px 16px;">Support</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/wiki/" style="padding: 6px 16px;">Wiki</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/about/" style="padding: 6px 16px;">About</a>
-</li></ul>
-              </div>
-            </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-          </div>
-        </nav>
-      </div></header>
-    
-    <section class="u-align-left u-clearfix u-image u-shading u-section-2" src="" id="sec-b180" data-image-width="2520" data-image-height="1417">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-font-merriweather u-text u-title u-text-1" data-animation-name="flipIn" data-animation-duration="1750" data-animation-delay="0" data-animation-direction="X">RITA</h1>
-        <p class="u-large-text u-text u-text-variant u-text-2" data-animation-name="fadeIn" data-animation-duration="1250" data-animation-delay="0" data-animation-direction="Up">Rita is an open-source, community-driven Discord Translation bot. Built using Google Translate API and Discord.js, Rita allows communication across the language barrier, solving a problem which many experience using Discord daily. Rita is completely free, no costs of any kind. Period.<br>
-          <br>Start your unlimited Translation Bot today! If you don't have any coding expertise, do not worry. We will assist you and it will be worth it!
-        </p>
-        <a href="/new-bot/" class="u-border-3 u-border-white u-btn u-btn-rectangle u-button-style u-none u-btn-1">Start Now</a>
-      </div>
-    </section>
-    <section class="u-align-left u-clearfix u-image u-shading u-section-3" src="" id="Resources" data-image-width="1600" data-image-height="1000">
-      <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
-        <div class="u-layout">
-          <div class="u-layout-row">
-            <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
-              <div class="u-container-layout u-container-layout-1">
-                <h1 class="u-text u-text-1">Source</h1>
-                <p class="u-custom-font u-font-ubuntu u-large-text u-text u-text-variant u-text-2">Rita is developed and shared using Github. Check the Rita repository below.</p>
-                <a href="https://github.com/Zyc0r3/RitaBot.git" class="u-border-2 u-border-white u-btn u-btn-rectangle u-button-style u-none u-btn-1" target="_blank">Our Repository</a>
-              </div>
-            </div>
-            <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
-              <div class="u-container-layout u-valign-bottom-xs u-container-layout-2">
-                <h1 class="u-text u-text-3">Support</h1>
-                <p class="u-custom-font u-font-ubuntu u-large-text u-text u-text-variant u-text-4">&nbsp;We're here to help you if you have any questions or require assistance. Join our Discord!</p>
-                <a href="https://discord.gg/mgNR64R" class="u-border-2 u-border-white u-btn u-btn-rectangle u-button-style u-none u-btn-2" target="_blank">Discord</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="u-clearfix u-expanded-width u-gutter-18 u-layout-wrap u-layout-wrap-2">
-        <div class="u-layout">
-          <div class="u-layout-row">
-            <div class="u-container-style u-layout-cell u-size-29 u-layout-cell-3">
-              <div class="u-container-layout u-container-layout-3">
-                <h1 class="u-text u-text-5">
-                  <font class="u-text-body-alt-color">Free<br>
-                  </font>
-                  <br>
-                </h1>
-                <p class="u-custom-font u-font-ubuntu u-large-text u-text u-text-body-alt-color u-text-variant u-text-6">A community-driven project. Desiring free and unlimited translation for everyone.&nbsp;&nbsp;</p>
-                <a href="/about/" class="u-border-2 u-border-white u-btn u-btn-rectangle u-button-style u-none u-btn-3">About Us</a>
-              </div>
-            </div>
-            <div class="u-container-style u-layout-cell u-size-31 u-layout-cell-4">
-              <div class="u-container-layout u-valign-bottom-xs u-container-layout-4">
-                <h1 class="u-text u-text-7">Powerful</h1>
-                <p class="u-custom-font u-font-ubuntu u-large-text u-text u-text-body-alt-color u-text-variant u-text-8">Using Discord.js and Google Translate, Rita is one of the most powerful free Discord Translation Bots in the world.</p>
-                <a href="https://ritabot.org/whats-new/" class="u-border-2 u-border-white u-btn u-btn-rectangle u-button-style u-none u-btn-4">Whats New</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <style class="u-overlap-style">.u-overlap:not(.u-sticky-scroll) .u-header {
-}</style>
-    
-    
-<footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-1c6a"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">© 2018-2021 ZyC0R3. Maintained by Zycore and Artanis</p>
-      </div></footer>
-  </body>
+<html>
+    <head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="google-site-verification" content="A4ifm6blQ-yy-FDOU1oJRvGeNBHzdOyRiI4lEWZOv-k" />
+<title>Free Translation Bot - RITA</title>
+<link rel="canonical" href="https://ritabot.org/">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179123801-1"></script>
+<script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag("js", new Date());
+   gtag("config", "UA-179123801-1");
+</script>
+
+<meta name="description" content="RitaBot is an open-source, free & automated translator which provides millions of translations to thousands of users daily for a total cost of $0. A completely free Discord Translator & Guilded Translator.">
+
+<!-- Apple Stuff -->
+    <link rel="apple-touch-icon" href="https://ritabot.org/index/images/favicon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Free Translation Bot for Discord & Guilded - RITA ">
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Free Translation Bot - RITA">
+<meta itemprop="description" content="RitaBot is an open-source, free & automated translator which provides millions of translations to thousands of users daily for a total cost of $0. A completely free Discord Translator & Guilded Translator.">
+<meta itemprop="image" content="https://ritabot.org/index/images/phone.png">
+
+<!-- MS Tile - for Microsoft apps-->
+<meta name="msapplication-TileImage" content="">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Translator Bot - RITA">
+<meta property="og:description" content="RitaBot is an open-source, free & automated translator which provides millions of translations to thousands of users daily for a total cost of $0. A completely free Discord Translator & Guilded Translator.">
+<meta property="og:image" content="https://ritabot.org/index/images/phone.png">
+<meta property="og:url" content="https://ritabot.org">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Translator Bot - RITA">
+<meta name="twitter:description" content="RitaBot is an open-source, free & automated translator which provides millions of translations to thousands of users daily for a total cost of $0.">
+<meta name="twitter:image" content="">
+
+<link rel="icon" type="image/png" href="https://ritabot.org/index/images/favicon.png">
+
+<script type="application/ld+json">
+    {
+        "@context":"http://schema.org",
+        "@type":"WebPage",
+        "url":"https://ritabot.org",
+        "description":"Rita is a free and open-source Translation Bot which uses Google Translate API modules to provide free and unlimited translation for everyone. A free translator bot for Discord & Guilded",
+        "name":"Translator Bot - RITA",
+        "image":"https://ritabot.org/index/images/phone.png"
+    }
+</script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://grapedrop.com/css/gjs-base.css?id=d0383dd1e92b8b8ea83e">
+
+
+<script>
+    window._formUrl = "https://grapedrop.com/form-collector/378cc4000d294991957b215f34e1fd35";
+    window.__gRecapKey = "";
+    window.postJQCnt = [];
+    window.postJQ = function() {
+        window._jqloaded = 1;
+        postJQCnt.forEach(function(fn) { fn && fn() })
+    }
+</script>
+
+<style>
+    body { margin: 0; padding: 0; overflow-x: hidden; }
+</style>
+<style data-css-anim>
+    [data-anim-type]:not([data-anim-done]) { opacity: 0; }
+</style>
+
+
+        <style>
+            * { box-sizing: border-box; } body {margin: 0;}#i8lk{min-height:100vh;background-image:url('https://i.ibb.co/ZHJ5vXN/background.png');background-repeat:no-repeat;background-position:left center;background-attachment:fixed;background-size:cover;}#iqvx{height:100%;justify-content:center;align-items:center;}#ivhe{max-width:459px;}#immj{line-height:4.5rem;font-size:3.5rem;margin:0 0 30px 0;}#iu4b{line-height:2.5rem;font-size:1.5rem;padding:0 0 0 0;margin:0 0 45px 0;font-weight:300;}#igpk{flex:0 1 auto;margin:0 100px 0 0;flex-basis:1auto;}#iiorn{display:none;}#is1qk{display:none;}#itlga{padding:0 0 0 0;min-height:auto;}#i6xp6{flex:0 1 auto;padding:5px 0 5px 0;flex-basis:1auto;}#iysck{padding:20px 0 20px 0;font-size:0.8rem;background-color:#222427;}body{background-color:#2e3037;color:#f7f7ff;}#i925m{padding:0 0 0 0;}#i5vl2{opacity:0.4;}.footer-link{color:#ffffff;text-decoration:none;white-space:nowrap;}#iy7ca{align-items:center;}.footer-link:hover{color:#ea526f;}#ijf6n{color:#ffffff;}#iet9o{flex:0 1 auto;}#ig6ka{color:#ffffff;}#ilny6{flex:0 1 auto;}.gpd-clm{padding:5px 0;}.gpd-header{margin:0;}.gpd-grid{min-height:auto;padding:10px 0;}.gpd-box{padding:5px 0;}#iglei{color:#ffffff;letter-spacing:0;font-family:Trebuchet MS, Helvetica, sans-serif;line-height:4px;font-size:17px;}#i14e8{background-color:rgba(19,67,117,0.8);color:#ffffff;font-family:Tahoma, Geneva, sans-serif;font-size:16px;font-weight:500;line-height:11px;text-transform:capitalize;text-align:left;white-space:nowrap;}.brand-name{font-size:1.5rem;margin-left:15px;vertical-align:middle;}.header3{font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:200;min-height:50px;color:#eee;background-color:#444;}.menu-container{display:inline-block;vertical-align:middle;}.menu{padding:3px 0;display:block;margin:0;}.menu-link{margin:0;color:inherit;opacity:0.75;text-decoration:none;display:inline-block;vertical-align:middle;padding:10px 15px;transition:opacity 0.25s;}.menu-link:hover{opacity:1;}#iy3k5{font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:200;padding:50px 0;color:#444;background-color:#222427;display:inherit;white-space:normal;mix-blend-mode:luminosity;}#idpok{color:black;}#i4j1j{padding:0;}#i2rs6{min-height:10px;}#i2kiz{min-height:0;text-align:right;display:inherit;}#iu0dl{font-weight:600;color:#e3e3e3;line-height:37px;text-transform:capitalize;text-align:left;white-space:nowrap;}.gpd-shape-divider > svg{height:100%;width:100%;transform:scaleY(-1);}.gpd-shape-divider--fl-v > svg{transform:scaleY(1);}.gpd-shape-divider--fl-h > svg{transform:scaleX(-1) scaleY(-1);}.gpd-shape-divider--fl-v-h > svg{transform:scaleY(1) scaleX(-1);}.gpd-shape-divider > svg > path{fill:currentColor;}.gpd-shape-divider-inv > path{transform:scale(-1, -1) translate(-100%, -100%);}#irab9{color:black;width:35px;height:35px;max-width:auto;background-color:rgba(0,0,0,0);border:0 solid #ffffff;}#izjxl{background-color:rgba(37,69,124,0.69);}.header-link-svg{color:black;width:40px;height:40px;background-image:url('https://cdn.grapedrop.com/uf69975e292a0400381e9497a5c0821c1/5c73c98878064e26969352a600f08457_guilded_logomark_white.png');background-repeat:no-repeat;background-position:center top;background-attachment:fixed;background-size:auto;}#ie8on{color:#b7b7b7;width:40px;height:40px;}#ilglo{color:black;width:40px;height:40px;}#is5mg{color:black;width:40px;height:40px;}#iqr8j{color:#c2bebe;text-align:center;font-family:Trebuchet MS, Helvetica, sans-serif;font-weight:600;font-size:30px;line-height:40px;width:641px;}#im2cg{color:#c2bebe;font-family:Tahoma, Geneva, sans-serif;width:641px;height:165px;text-align:center;}#it96p{color:#b7b7b7;width:40px;height:40px;}#in8gy{color:black;width:40px;height:40px;}#iiji4{color:black;width:40px;height:40px;}#iilgk{color:#c2bebe;font-family:Tahoma, Geneva, sans-serif;width:641px;height:165px;text-align:center;}#i4j12{height:auto;}#iti3b{color:#c2bebe;font-size:30px;font-family:Trebuchet MS, Helvetica, sans-serif;text-align:center;font-weight:600;animation-duration:2s;width:641px;}#isigg{color:#c2bebe;text-align:center;font-family:Trebuchet MS, Helvetica, sans-serif;font-weight:600;font-size:30px;line-height:40px;width:641px;}#iwe5g{color:#c2bebe;font-family:Tahoma, Geneva, sans-serif;width:641px;height:165px;text-align:center;}#i43s8{color:#c2bebe;text-align:center;font-family:Trebuchet MS, Helvetica, sans-serif;font-weight:600;font-size:30px;line-height:40px;width:641px;}#i5ttt{color:#c2bebe;font-family:Tahoma, Geneva, sans-serif;width:641px;height:165px;text-align:center;}#is2sh{flex-basis:99%;}#i6ad1{color:#c2bebe;text-align:center;font-family:Trebuchet MS, Helvetica, sans-serif;font-weight:600;font-size:30px;line-height:40px;width:641px;}#igcs6{color:#c2bebe;font-family:Tahoma, Geneva, sans-serif;width:641px;height:165px;text-align:center;}#ie8zk{color:#c2bebe;text-align:center;font-family:Trebuchet MS, Helvetica, sans-serif;font-weight:600;font-size:30px;line-height:40px;width:641px;}#inwfl{color:#c2bebe;font-family:Tahoma, Geneva, sans-serif;width:641px;height:165px;text-align:center;}@media (max-width: 768px){#igpk{margin:0 0 0 0;order:2;}#ivhe{margin:0 0 30px 0;}#itlga{flex-wrap:nowrap;}.menu-container{display:none;width:100%;}.menu{width:100%;}.menu-link{display:block;}#iti3b{width:641px;}#iilgk{width:641px;}}@media (max-width: 375px){#i8lk{background-image:linear-gradient(rgba(40,191,222,0.9),rgba(40,191,222,0.9));background-repeat:repeat;background-position:left top;background-attachment:scroll;background-size:auto;}#immj{font-size:2.3rem;line-height:3rem;}#iu4b{font-size:1.2rem;line-height:2rem;}}
+        </style>
+    </head>
+    <body>
+        <header class="header3" id="izjxl"><div class="container" id="i4j1j"><div data-columns="1" data-gjs="navbar" class="row no-gutters" id="i2rs6"><div data-column="1" class="cell" id="i2kiz"><img id="irab9" src="https://ritabot.org/index/images/favicon.png" alt="Rita Translator Bot Logo"/><span class="brand-name" id="iu0dl">RitaBot</span><div data-gjs="navbar-items" class="menu-container"><nav data-gjs="navs" class="menu"><a href="https://ritabot.org" id="ix4ig" class="menu-link">Home</a><a href="https://ritabot.org/new-bot" id="ib9xl" class="menu-link">Make Yours</a><a href="https://guilded.gg/RITA" target="_blank" id="i1kyg" class="menu-link">Guilded Server</a><a href="https://discord.gg/mgNR64R" id="iohrr" target="_blank" class="menu-link">Discord Server</a><a href="https://ritabot.org/common-issues" id="ipzka" class="menu-link">Common Issues</a><a href="https://ritabot.org/common-issues" id="iesdz" class="menu-link">About Us</a><div class="header-socials"><a id="ijrq4" href="https://guilded.gg/RITA" target="_blank" class="gpd-link-box"><img id="ie8on" src="https://cdn.grapedrop.com/uf69975e292a0400381e9497a5c0821c1/5c73c98878064e26969352a600f08457_guilded_logomark_white.png" class="header-link-svg"/></a><a href="https://discord.gg/mgNR64R" target="_blank" id="iw06e" class="gpd-link-box"><img id="ilglo" src="https://cdn.grapedrop.com/uf69975e292a0400381e9497a5c0821c1/e06290366bae41bdb2671aab8cbda1ad_discord-logo-white.png" class="header-link-svg"/></a><a href="https://github.com/RitaBot-Project/RitaBot" target="_blank" id="ier1g" class="gpd-link-box"><img id="is5mg" src="https://cdn.grapedrop.com/uf69975e292a0400381e9497a5c0821c1/ca22797b330648e8b6562b70a4629f2e_github-mark-light-120px-plus.png" class="header-link-svg"/></a></div></nav></div></div></div></div></header><section id="i8lk" class="gpd-section"><div class="gpd-container"><div id="iqvx" class="gdp-row"><div id="igpk" class="cell"><img id="idpok" src="https://cdn.grapedrop.com/uf69975e292a0400381e9497a5c0821c1/af7a0c5dfd7741d3a40bb6112101fae1_screenshot_20210325-160930_disco_1_iphone12black_portrait.png" data-anim-type="fadeInLeft"/></div><div id="ivhe" data-anim-type="fadeInRight" data-anim-br="414" class="cell"><h1 id="immj" class="gpd-header">The bot you've been looking for.</h1><div id="iu4b" class="gpd-text">We develop Rita, the best free Translator Bot on Discord (&amp; soon Guilded). Breaking the language barrier for thousands of users.</div><form method="post" data-redirect="" id="iitu"><div class="form-group"></div><a id="i14e8" href="https://ritabot.org/new-bot" data-anim-type="fadeInRight" class="gpd-link">Make Yours</a><div id="itlga" class="gdp-row"><div id="i6xp6" class="cell"><div class="form-group"></div></div></div><div data-form-state="success" id="iiorn" class="state-success">Thanks! We received your request</div><div data-form-state="error" id="is1qk" class="state-error">An error occurred on processing your request, try again!</div></form></div></div></div></section><section id="iy3k5"><div class="gpd-box"><div class="gdp-row gpd-grid"><div class="cell gpd-clm"><div class="gdp-row gpd-grid"><div class="cell gpd-clm" id="i4j12"><div class="gdp-row gpd-grid"><div class="cell gpd-clm"><h1 class="gpd-header" id="i43s8">Open Source</h1><div class="gpd-text" id="i5ttt">Rita is completely open-source. We maintain her and develop her to help everyone, and what better way to do that than use the free tools we have accesible to us to keep Rita open-source.&nbsp;</div></div><div class="cell gpd-clm" id="is2sh"><div data-anim-type="fadeIn" id="iti3b"></div><div class="gpd-text" id="iilgk">The only reason Rita exists is to help others. To help others know you do not need to pay outrageous rates just to connect with your friends in other languages. Not everything needs to be for-profit.&nbsp;</div></div><div class="cell gpd-clm"><h1 class="gpd-header" id="isigg">Feature Rich</h1><div class="gpd-text" id="iwe5g">Rita has tons of baked-in features to help you connect with others. Including but not limited to automatic channel translation, flag reaction, and custom translations. We are constantly thinking of new idea's and taking in new ideas from the community so feel free to join our servers if you have an idea.</div></div></div></div></div><div class="gdp-row gpd-grid"><div class="cell gpd-clm"><h1 class="gpd-header" id="i6ad1">Updates</h1><div class="gpd-text" id="igcs6">Rita is always being worked on. Currently we have some projects in the works, these include introducing Rita to Guilded and completely rebuilding Rita for Discord. Quick fixes to bugs are always being made to versions.</div></div><div class="cell gpd-clm"><h1 class="gpd-header" id="iqr8j">Guilded</h1><div class="gpd-text" id="im2cg">Rita has recently been added to Guilded's Early Access Team. We are very excited to introduce Rita to Guilded. You can join our Guilded Server using the button at the top or bottom of the page. We are very eager to be on this journey with Guilded</div></div><div class="cell gpd-clm"><h1 class="gpd-header" id="ie8zk">Discord Support</h1><div class="gpd-text" id="inwfl">Join our support server if you require any assistance at all. We're always here to help. Even if you don't need help, drop by to say hello, just chat, suggest ideas. We enjoy conversation (right?). You can find all media links at the bottom or top of the page.</div></div></div></div></div></div></section><section id="iysck" class="gpd-section"><div id="i925m" class="gpd-container"><a id="iglei" href="https://ritabot.org/#" class="gpd-link">RITA</a><div id="iy7ca" class="gdp-row"><div id="iv2yz" class="cell"><div id="i5vl2" class="gpd-text">© RitaBot 2018 - 2021. All rights reserved. Maintained by RitaBot Dev Team</div></div><div id="iet9o" class="cell"><a href="https://ritabot.org/license" target="_blank" id="ijf6n" class="gpd-link footer-link">License</a></div><div id="ilny6" class="cell"><a href="https://ritabot.org/about" target="_blank" id="ig6ka" class="gpd-link footer-link">About Us</a></div></div><a href="https://guilded.gg/RITA" target="_blank" id="inntu" class="gpd-link-box"><img src="https://cdn.grapedrop.com/uf69975e292a0400381e9497a5c0821c1/5c73c98878064e26969352a600f08457_guilded_logomark_white.png" id="it96p" class="header-link-svg"/></a><a href="https://discord.gg/mgNR64R" target="_blank" id="i9568" class="gpd-link-box"><img src="https://cdn.grapedrop.com/uf69975e292a0400381e9497a5c0821c1/e06290366bae41bdb2671aab8cbda1ad_discord-logo-white.png" id="in8gy" class="header-link-svg"/></a><a href="https://github.com/RitaBot-Project/RitaBot" target="_blank" class="gpd-link-box"><img src="https://cdn.grapedrop.com/uf69975e292a0400381e9497a5c0821c1/ca22797b330648e8b6562b70a4629f2e_github-mark-light-120px-plus.png" id="iiji4" class="header-link-svg"/></a></div></section><script>var items = document.querySelectorAll('#iti3b');
+          for (var i = 0, len = items.length; i < len; i++) {
+            (function(){var t=this,e=JSON.parse('["Free Translation","Helping Others"]'),n=function(t){return parseInt(t,10)||0},r=function(t){return!!t},i=function(){var i=t;i.innerHTML='<span></span>';var o=parseInt('1',10),a={typeSpeed:n('60'),startDelay:n('20'),backDelay:n('1000'),backSpeed:n('30'),smartBackspace:r('true'),fadeOut:r(''),fadeOutClass:'typed-fade-out',fadeOutDelay:n('500'),shuffle:r(''),loop:r(''),loopCount:isNaN(o)?1/0:o,showCursor:r('true'),cursorChar:'|',autoInsertCss:r('true'),bindInputFocusEvents:r(''),attr:'',contentType:'html'};e&&e.length&&(a.strings=e),new Typed(i.children[0],a)};if(window.Typed)i();else{var o=document.createElement('script');o.src='https://cdn.jsdelivr.net/npm/typed.js@2.0.11',o.onload=i,document.head.appendChild(o)}}.bind(items[i]))();
+          }</script>
+        
+        <style>
+    a.page-brand-badge {
+        border-radius: 3px !important;
+        background-color: white !important;
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.1);
+        padding: 5px 7px !important;
+        font-family: Helvetica, sans-serif !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        color: #555 !important;
+        transition: box-shadow 0.25s !important;
+    }
+    a.page-brand-badge:hover {
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+</style>
+
+
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" onload="postJQ()"></script>
+    <script async src="https://grapedrop.com/js/gpd.js?id=941871ee8356f83232d3"></script>
+    <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    </body>
 </html>
