@@ -18,7 +18,7 @@ In April of 2022 the code in this repo will be deprecated and we will no longer 
 </p><br/><br/>
 
 
-<p align="center">An open-source, free Discord Translator Bot built using <strong>google-translate-api</strong> and <strong>Discord.js</strong>.</p>
+<p align="center">An open-source, Discord Translator Bot built using <strong>google-translate-api</strong> and <strong>Discord.js</strong>.</p>
 
 ![Rita Translator Diagram](https://storage.pixteller.com/designs/designs-images/2021-02-03/05/poster-simple-quote-1-601a17471d0b6.png)
 
